@@ -17,21 +17,14 @@ struct Switcher {
     
     static func switchDesktopMode(mode: DesktopMode) {
         
-        let show: Bool
-        
-        switch mode {
-        case .show:
-            show = true
-        case .hide:
-            show = false
-        }
+        let show = mode == .show ? true : false
         
         shell("defaults write com.apple.finder CreateDesktop \(show.description)")
         shell("killall Finder")
     }
     
     @discardableResult
-    static private func shell(_ command: String) -> String {
+    static private func shell(_ command: String) -> String? {
         
         let task = Process()
         task.launchPath = "/bin/bash"
@@ -42,8 +35,9 @@ struct Switcher {
         task.launch()
         
         let data = pipe.fileHandleForReading.readDataToEndOfFile()
-        let output: String = NSString(data: data, encoding: String.Encoding.utf8.rawValue)! as String
-        
+        guard let output = String(data: data, encoding: String.Encoding.utf8) else {
+            return nil
+        }
         return output
     }
 }

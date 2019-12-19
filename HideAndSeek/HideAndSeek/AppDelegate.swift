@@ -7,11 +7,17 @@
 //
 
 import Cocoa
+import LoginServiceKit
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
+        
+        let bundle = Bundle.main.bundlePath
+         if LoginServiceKit.isExistLoginItems(at: bundle) == false {
+             LoginServiceKit.addLoginItems(at: bundle)
+         }
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {

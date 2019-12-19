@@ -1,0 +1,1008 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39901ED0E424B4AD66D94DBF5ED432A3 /* LoginServiceKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 896B41085DF28E7A185A77D61BCC354A /* LoginServiceKit-dummy.m */; };
+		41B4707D74E7886116EA2656B62E29C3 /* KeyCodeTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6415E24A67ED63DDA4FD013F1DBBD4 /* KeyCodeTransformer.swift */; };
+		431F354435254E8A96979E00B5D96B56 /* HotKeyCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD403FF354FFE535529A2C6EB0C5A97 /* HotKeyCenter.swift */; };
+		44687415A01181C42896483F2BA74DD6 /* KeyCombo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F091186E47E54D93FCB50F97CC76CEC /* KeyCombo.swift */; };
+		517999064F518127E8CB3B6DC7CB34A2 /* Pods-HideAndSeek-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B835E9DA77CAD405601C4D92DE8E5F9A /* Pods-HideAndSeek-dummy.m */; };
+		56275C3FADB6382DBFB5345ABA195610 /* OGSwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED91EE45F157B140E731E7727EA26302 /* OGSwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C232150CA77EF06DC418A48F78C822F /* LoginServiceKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A56E64259EC529B75FD9C80508287C /* LoginServiceKit.swift */; };
+		6721A348C8B9E4446CF60CC08BBF7768 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8361FDCE534C28CE8EACD6B796A834DB /* Carbon.framework */; };
+		8517FF73E14305143DB882579ABC0A2F /* Magnet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DD06621D273D63B12F128EF204FDB9 /* Magnet-dummy.m */; };
+		9824BFBFD96E1D47E6D3F787AE79F9A6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A5CD5AFD55E86C5D69812AE01A9770 /* Cocoa.framework */; };
+		A65DCEAF452CAF13D546F1977650B8C0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A5CD5AFD55E86C5D69812AE01A9770 /* Cocoa.framework */; };
+		AD1948B913790C21709C6B9A736708ED /* Magnet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF6E1FAB82EBEF62E7ED9720FB9BC92 /* Magnet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF3757B95B161A8977F45D3145857DC6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A5CD5AFD55E86C5D69812AE01A9770 /* Cocoa.framework */; };
+		B60F2AB2C3EE33673C87B53135FFE7E7 /* OGSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC77CA52A29943EA4C2ECB7344AEE63B /* OGSwitch.swift */; };
+		C0B109ECEB64E12681837CAC3E147485 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A5CD5AFD55E86C5D69812AE01A9770 /* Cocoa.framework */; };
+		C8DF98B8F41349AC35EC03356F8595BF /* HotKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E8613D9A31C7013E5C14215324A00E /* HotKey.swift */; };
+		CA8ABF044C17CC7B64EAFACE52E8CCED /* OGSwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D2D60B123527292C3BFF29D4FD2142 /* OGSwitch-dummy.m */; };
+		E634EB96F7F06DF77CD4BEEE20C49121 /* KeyTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BEA1AF3215F3A09934021E377B1664 /* KeyTransformer.swift */; };
+		EE73BFA5E5522DF8494B33578860A511 /* BoolExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D41BF01AC99A0413F251A25CC91E9D /* BoolExtensions.swift */; };
+		FC761C25E613B27884349AA42572AC72 /* Pods-HideAndSeek-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 372BB097ECEA878710835FFB03B444D9 /* Pods-HideAndSeek-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD9EA8AA8D3959577C324CE51105CC90 /* LoginServiceKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3844D4BC0958A62648BF65116DD2D5C2 /* LoginServiceKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DA60DAEF366959C15A303F0ED322DF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4363B3DEE0E244A6E95B497FB82E7385;
+			remoteInfo = LoginServiceKit;
+		};
+		662A281FA74563741CA66A02F87248C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E149398A6E587455F01510D83B29C52;
+			remoteInfo = Magnet;
+		};
+		D181D5A3D031CCE08D6E5DCB5EE60F8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20D78FC9B8066B175F313EB64FEBC9EA;
+			remoteInfo = OGSwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03D2D60B123527292C3BFF29D4FD2142 /* OGSwitch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OGSwitch-dummy.m"; sourceTree = "<group>"; };
+		0B4BD8D065DF9EDBAE1FAEE27C4B61C7 /* Magnet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Magnet-prefix.pch"; sourceTree = "<group>"; };
+		0C95BD2100834FE8C6AD8AAF78513557 /* LoginServiceKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoginServiceKit.xcconfig; sourceTree = "<group>"; };
+		0E68200589E3B417DA8C74A726CB2153 /* OGSwitch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OGSwitch.xcconfig; sourceTree = "<group>"; };
+		15DD06621D273D63B12F128EF204FDB9 /* Magnet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Magnet-dummy.m"; sourceTree = "<group>"; };
+		1EFB89C2B24562B825A18542F7A5F7CA /* Magnet-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Magnet-Info.plist"; sourceTree = "<group>"; };
+		282D0107DA1CC789518A52874EA101CB /* Pods-HideAndSeek.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HideAndSeek.modulemap"; sourceTree = "<group>"; };
+		372BB097ECEA878710835FFB03B444D9 /* Pods-HideAndSeek-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HideAndSeek-umbrella.h"; sourceTree = "<group>"; };
+		3844D4BC0958A62648BF65116DD2D5C2 /* LoginServiceKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginServiceKit-umbrella.h"; sourceTree = "<group>"; };
+		433FF85AFA35B9DD386AA5F2AB226310 /* OGSwitch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OGSwitch-Info.plist"; sourceTree = "<group>"; };
+		46D41BF01AC99A0413F251A25CC91E9D /* BoolExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoolExtensions.swift; path = Lib/Magnet/BoolExtensions.swift; sourceTree = "<group>"; };
+		4FD403FF354FFE535529A2C6EB0C5A97 /* HotKeyCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HotKeyCenter.swift; path = Lib/Magnet/HotKeyCenter.swift; sourceTree = "<group>"; };
+		5333727654E602B5AB468791EED5C5A5 /* Pods-HideAndSeek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HideAndSeek.debug.xcconfig"; sourceTree = "<group>"; };
+		5F091186E47E54D93FCB50F97CC76CEC /* KeyCombo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyCombo.swift; path = Lib/Magnet/KeyCombo.swift; sourceTree = "<group>"; };
+		62E8613D9A31C7013E5C14215324A00E /* HotKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HotKey.swift; path = Lib/Magnet/HotKey.swift; sourceTree = "<group>"; };
+		675AA5A3C7B48C34CEC0BD4F64601332 /* Pods-HideAndSeek-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HideAndSeek-acknowledgements.plist"; sourceTree = "<group>"; };
+		6EF6E1FAB82EBEF62E7ED9720FB9BC92 /* Magnet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Magnet-umbrella.h"; sourceTree = "<group>"; };
+		6F8647EF27B687C09DF8EA2DEDCDB6DB /* Pods-HideAndSeek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HideAndSeek.release.xcconfig"; sourceTree = "<group>"; };
+		718BE2E77E40DE9BB1956D5200DE7EF3 /* LoginServiceKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginServiceKit-prefix.pch"; sourceTree = "<group>"; };
+		78F13F8BF58C84DA97C7A398305028BC /* Pods-HideAndSeek-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HideAndSeek-acknowledgements.markdown"; sourceTree = "<group>"; };
+		820475DEE643F008B5FBA1874C6447A9 /* LoginServiceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LoginServiceKit.framework; path = LoginServiceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8361FDCE534C28CE8EACD6B796A834DB /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Carbon.framework; sourceTree = DEVELOPER_DIR; };
+		896B41085DF28E7A185A77D61BCC354A /* LoginServiceKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LoginServiceKit-dummy.m"; sourceTree = "<group>"; };
+		8B8465DBEF6533FC2752E683C6034A66 /* Magnet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Magnet.modulemap; sourceTree = "<group>"; };
+		8BF9AF4C535D24577653DCAA721BD486 /* Magnet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Magnet.xcconfig; sourceTree = "<group>"; };
+		90A56E64259EC529B75FD9C80508287C /* LoginServiceKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginServiceKit.swift; path = Lib/LoginServiceKit/LoginServiceKit.swift; sourceTree = "<group>"; };
+		9B403DE2F40BED199D68B714D4E101C7 /* LoginServiceKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LoginServiceKit.modulemap; sourceTree = "<group>"; };
+		9D6415E24A67ED63DDA4FD013F1DBBD4 /* KeyCodeTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyCodeTransformer.swift; path = Lib/Magnet/KeyCodeTransformer.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ADC4A3233D782F80442FDE60AD3BC029 /* OGSwitch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OGSwitch-prefix.pch"; sourceTree = "<group>"; };
+		B835E9DA77CAD405601C4D92DE8E5F9A /* Pods-HideAndSeek-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HideAndSeek-dummy.m"; sourceTree = "<group>"; };
+		C0C50F34AAB85F2D113FD01EE45D4D5F /* Magnet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Magnet.framework; path = Magnet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20559875C98A1507FBBCB9D286D5324 /* LoginServiceKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LoginServiceKit-Info.plist"; sourceTree = "<group>"; };
+		C933E7BDA465A8093F5C898FA784D66C /* OGSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OGSwitch.framework; path = OGSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC77CA52A29943EA4C2ECB7344AEE63B /* OGSwitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OGSwitch.swift; path = OGSwitch/OGSwitch.swift; sourceTree = "<group>"; };
+		D5447A0E033BFC542CDB02E194C87C51 /* Pods-HideAndSeek-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HideAndSeek-frameworks.sh"; sourceTree = "<group>"; };
+		E589E8AB5143963C7158FCB01878E05B /* Pods-HideAndSeek-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HideAndSeek-Info.plist"; sourceTree = "<group>"; };
+		E6885DB09887A8ABE5BB0999F2D18265 /* Pods_HideAndSeek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HideAndSeek.framework; path = "Pods-HideAndSeek.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6BEA1AF3215F3A09934021E377B1664 /* KeyTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyTransformer.swift; path = Lib/Magnet/KeyTransformer.swift; sourceTree = "<group>"; };
+		ED91EE45F157B140E731E7727EA26302 /* OGSwitch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OGSwitch-umbrella.h"; sourceTree = "<group>"; };
+		F3A5CD5AFD55E86C5D69812AE01A9770 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		FB9F98681382626C84A80C7946D3C2B9 /* OGSwitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OGSwitch.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C41851B991A857DB511B98ED76C929D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6721A348C8B9E4446CF60CC08BBF7768 /* Carbon.framework in Frameworks */,
+				C0B109ECEB64E12681837CAC3E147485 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB65A48D8F6087DBE6EE068559897D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9824BFBFD96E1D47E6D3F787AE79F9A6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F7049F493C889B4AE5F9AB736C1254F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65DCEAF452CAF13D546F1977650B8C0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7093E7FD2D331BF5F183CB2B2AF6D3AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3757B95B161A8977F45D3145857DC6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DD5DDFF739845B29BB1AD1ACFED9197 /* Magnet */ = {
+			isa = PBXGroup;
+			children = (
+				46D41BF01AC99A0413F251A25CC91E9D /* BoolExtensions.swift */,
+				62E8613D9A31C7013E5C14215324A00E /* HotKey.swift */,
+				4FD403FF354FFE535529A2C6EB0C5A97 /* HotKeyCenter.swift */,
+				9D6415E24A67ED63DDA4FD013F1DBBD4 /* KeyCodeTransformer.swift */,
+				5F091186E47E54D93FCB50F97CC76CEC /* KeyCombo.swift */,
+				E6BEA1AF3215F3A09934021E377B1664 /* KeyTransformer.swift */,
+				DA005FBBF78E7CF5CD7124F37A14BB4B /* Support Files */,
+			);
+			name = Magnet;
+			path = Magnet;
+			sourceTree = "<group>";
+		};
+		2EB46ECB1DE5DA922D89BFA28A0D5B63 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				8361FDCE534C28CE8EACD6B796A834DB /* Carbon.framework */,
+				F3A5CD5AFD55E86C5D69812AE01A9770 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		4A05B2C881FDC05E9B6CF47D088337EB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB9F98681382626C84A80C7946D3C2B9 /* OGSwitch.modulemap */,
+				0E68200589E3B417DA8C74A726CB2153 /* OGSwitch.xcconfig */,
+				03D2D60B123527292C3BFF29D4FD2142 /* OGSwitch-dummy.m */,
+				433FF85AFA35B9DD386AA5F2AB226310 /* OGSwitch-Info.plist */,
+				ADC4A3233D782F80442FDE60AD3BC029 /* OGSwitch-prefix.pch */,
+				ED91EE45F157B140E731E7727EA26302 /* OGSwitch-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OGSwitch";
+			sourceTree = "<group>";
+		};
+		605F1B13D9428F6F6F17809CABEAB7AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82BAF47C34FA1C2DDB62E80A0511786E /* LoginServiceKit */,
+				0DD5DDFF739845B29BB1AD1ACFED9197 /* Magnet */,
+				B963B629D6ED6E648900A549BF5F86F0 /* OGSwitch */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		82BAF47C34FA1C2DDB62E80A0511786E /* LoginServiceKit */ = {
+			isa = PBXGroup;
+			children = (
+				90A56E64259EC529B75FD9C80508287C /* LoginServiceKit.swift */,
+				F313C5BADAA80FA07BB8F9C2B39E4B5F /* Support Files */,
+			);
+			name = LoginServiceKit;
+			path = LoginServiceKit;
+			sourceTree = "<group>";
+		};
+		8E9BADD5CDA95201CF4169C14F818D2A /* Pods-HideAndSeek */ = {
+			isa = PBXGroup;
+			children = (
+				282D0107DA1CC789518A52874EA101CB /* Pods-HideAndSeek.modulemap */,
+				78F13F8BF58C84DA97C7A398305028BC /* Pods-HideAndSeek-acknowledgements.markdown */,
+				675AA5A3C7B48C34CEC0BD4F64601332 /* Pods-HideAndSeek-acknowledgements.plist */,
+				B835E9DA77CAD405601C4D92DE8E5F9A /* Pods-HideAndSeek-dummy.m */,
+				D5447A0E033BFC542CDB02E194C87C51 /* Pods-HideAndSeek-frameworks.sh */,
+				E589E8AB5143963C7158FCB01878E05B /* Pods-HideAndSeek-Info.plist */,
+				372BB097ECEA878710835FFB03B444D9 /* Pods-HideAndSeek-umbrella.h */,
+				5333727654E602B5AB468791EED5C5A5 /* Pods-HideAndSeek.debug.xcconfig */,
+				6F8647EF27B687C09DF8EA2DEDCDB6DB /* Pods-HideAndSeek.release.xcconfig */,
+			);
+			name = "Pods-HideAndSeek";
+			path = "Target Support Files/Pods-HideAndSeek";
+			sourceTree = "<group>";
+		};
+		B84ABB2FACA4804C4ACE7C09EF930BF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				820475DEE643F008B5FBA1874C6447A9 /* LoginServiceKit.framework */,
+				C0C50F34AAB85F2D113FD01EE45D4D5F /* Magnet.framework */,
+				C933E7BDA465A8093F5C898FA784D66C /* OGSwitch.framework */,
+				E6885DB09887A8ABE5BB0999F2D18265 /* Pods_HideAndSeek.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B963B629D6ED6E648900A549BF5F86F0 /* OGSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				CC77CA52A29943EA4C2ECB7344AEE63B /* OGSwitch.swift */,
+				4A05B2C881FDC05E9B6CF47D088337EB /* Support Files */,
+			);
+			name = OGSwitch;
+			path = OGSwitch;
+			sourceTree = "<group>";
+		};
+		C080C886C9E2F80D52E3E86A62E5B711 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EB46ECB1DE5DA922D89BFA28A0D5B63 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C080C886C9E2F80D52E3E86A62E5B711 /* Frameworks */,
+				605F1B13D9428F6F6F17809CABEAB7AD /* Pods */,
+				B84ABB2FACA4804C4ACE7C09EF930BF1 /* Products */,
+				F3C822D96FF14D8D143231E5CB9A0241 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DA005FBBF78E7CF5CD7124F37A14BB4B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B8465DBEF6533FC2752E683C6034A66 /* Magnet.modulemap */,
+				8BF9AF4C535D24577653DCAA721BD486 /* Magnet.xcconfig */,
+				15DD06621D273D63B12F128EF204FDB9 /* Magnet-dummy.m */,
+				1EFB89C2B24562B825A18542F7A5F7CA /* Magnet-Info.plist */,
+				0B4BD8D065DF9EDBAE1FAEE27C4B61C7 /* Magnet-prefix.pch */,
+				6EF6E1FAB82EBEF62E7ED9720FB9BC92 /* Magnet-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Magnet";
+			sourceTree = "<group>";
+		};
+		F313C5BADAA80FA07BB8F9C2B39E4B5F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B403DE2F40BED199D68B714D4E101C7 /* LoginServiceKit.modulemap */,
+				0C95BD2100834FE8C6AD8AAF78513557 /* LoginServiceKit.xcconfig */,
+				896B41085DF28E7A185A77D61BCC354A /* LoginServiceKit-dummy.m */,
+				C20559875C98A1507FBBCB9D286D5324 /* LoginServiceKit-Info.plist */,
+				718BE2E77E40DE9BB1956D5200DE7EF3 /* LoginServiceKit-prefix.pch */,
+				3844D4BC0958A62648BF65116DD2D5C2 /* LoginServiceKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LoginServiceKit";
+			sourceTree = "<group>";
+		};
+		F3C822D96FF14D8D143231E5CB9A0241 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E9BADD5CDA95201CF4169C14F818D2A /* Pods-HideAndSeek */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		15C62FF727A3292A2F78E282A668BBEF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1948B913790C21709C6B9A736708ED /* Magnet-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		683E633D209648DD1DC174B2CA628500 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56275C3FADB6382DBFB5345ABA195610 /* OGSwitch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97C249D8B94D576C224CA6105B518D02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9EA8AA8D3959577C324CE51105CC90 /* LoginServiceKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4429AF09E1DE11F797451481576C28D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC761C25E613B27884349AA42572AC72 /* Pods-HideAndSeek-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20D78FC9B8066B175F313EB64FEBC9EA /* OGSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 329F79C859F85ECB9B0969CDE28E789E /* Build configuration list for PBXNativeTarget "OGSwitch" */;
+			buildPhases = (
+				683E633D209648DD1DC174B2CA628500 /* Headers */,
+				88CC79169D7B771F83A5061CAC7A112F /* Sources */,
+				6F7049F493C889B4AE5F9AB736C1254F /* Frameworks */,
+				DE9464A6C361767C2F0B0DC0A680E970 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OGSwitch;
+			productName = OGSwitch;
+			productReference = C933E7BDA465A8093F5C898FA784D66C /* OGSwitch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3E149398A6E587455F01510D83B29C52 /* Magnet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE57016A0234D4A4BDA352F5D7EDF9CD /* Build configuration list for PBXNativeTarget "Magnet" */;
+			buildPhases = (
+				15C62FF727A3292A2F78E282A668BBEF /* Headers */,
+				C0A2106E20039687DAC3141CF7130464 /* Sources */,
+				3C41851B991A857DB511B98ED76C929D /* Frameworks */,
+				DCD06161296A8E2AC17F93FE30699079 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Magnet;
+			productName = Magnet;
+			productReference = C0C50F34AAB85F2D113FD01EE45D4D5F /* Magnet.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4363B3DEE0E244A6E95B497FB82E7385 /* LoginServiceKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6310DB0AF3F4FB8C97CF81017433C2D /* Build configuration list for PBXNativeTarget "LoginServiceKit" */;
+			buildPhases = (
+				97C249D8B94D576C224CA6105B518D02 /* Headers */,
+				EC1E63028C94A657E523CF7E86650E8C /* Sources */,
+				3CB65A48D8F6087DBE6EE068559897D9 /* Frameworks */,
+				D67CF8E41FCE21EB2DB9C6B008323288 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginServiceKit;
+			productName = LoginServiceKit;
+			productReference = 820475DEE643F008B5FBA1874C6447A9 /* LoginServiceKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9184BA9314606E952A6287D82E95652D /* Pods-HideAndSeek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8745488ED38C227BB34B0E26E938F0AC /* Build configuration list for PBXNativeTarget "Pods-HideAndSeek" */;
+			buildPhases = (
+				C4429AF09E1DE11F797451481576C28D /* Headers */,
+				066C311B0999C1D9EE6AADC6F1DAE408 /* Sources */,
+				7093E7FD2D331BF5F183CB2B2AF6D3AF /* Frameworks */,
+				7A7F67402B2CAF7629408A963A145BDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C2F2ABB9A92E64EA5CDBDED529CF9B1 /* PBXTargetDependency */,
+				4138DCF0B0AD50D809A79083B2B13A6D /* PBXTargetDependency */,
+				C506D0938660C2C6F944F892AAEC64FD /* PBXTargetDependency */,
+			);
+			name = "Pods-HideAndSeek";
+			productName = "Pods-HideAndSeek";
+			productReference = E6885DB09887A8ABE5BB0999F2D18265 /* Pods_HideAndSeek.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B84ABB2FACA4804C4ACE7C09EF930BF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4363B3DEE0E244A6E95B497FB82E7385 /* LoginServiceKit */,
+				3E149398A6E587455F01510D83B29C52 /* Magnet */,
+				20D78FC9B8066B175F313EB64FEBC9EA /* OGSwitch */,
+				9184BA9314606E952A6287D82E95652D /* Pods-HideAndSeek */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A7F67402B2CAF7629408A963A145BDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67CF8E41FCE21EB2DB9C6B008323288 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD06161296A8E2AC17F93FE30699079 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE9464A6C361767C2F0B0DC0A680E970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		066C311B0999C1D9EE6AADC6F1DAE408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517999064F518127E8CB3B6DC7CB34A2 /* Pods-HideAndSeek-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88CC79169D7B771F83A5061CAC7A112F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8ABF044C17CC7B64EAFACE52E8CCED /* OGSwitch-dummy.m in Sources */,
+				B60F2AB2C3EE33673C87B53135FFE7E7 /* OGSwitch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A2106E20039687DAC3141CF7130464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE73BFA5E5522DF8494B33578860A511 /* BoolExtensions.swift in Sources */,
+				C8DF98B8F41349AC35EC03356F8595BF /* HotKey.swift in Sources */,
+				431F354435254E8A96979E00B5D96B56 /* HotKeyCenter.swift in Sources */,
+				41B4707D74E7886116EA2656B62E29C3 /* KeyCodeTransformer.swift in Sources */,
+				44687415A01181C42896483F2BA74DD6 /* KeyCombo.swift in Sources */,
+				E634EB96F7F06DF77CD4BEEE20C49121 /* KeyTransformer.swift in Sources */,
+				8517FF73E14305143DB882579ABC0A2F /* Magnet-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1E63028C94A657E523CF7E86650E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39901ED0E424B4AD66D94DBF5ED432A3 /* LoginServiceKit-dummy.m in Sources */,
+				5C232150CA77EF06DC418A48F78C822F /* LoginServiceKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C2F2ABB9A92E64EA5CDBDED529CF9B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LoginServiceKit;
+			target = 4363B3DEE0E244A6E95B497FB82E7385 /* LoginServiceKit */;
+			targetProxy = 1DA60DAEF366959C15A303F0ED322DF6 /* PBXContainerItemProxy */;
+		};
+		4138DCF0B0AD50D809A79083B2B13A6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Magnet;
+			target = 3E149398A6E587455F01510D83B29C52 /* Magnet */;
+			targetProxy = 662A281FA74563741CA66A02F87248C0 /* PBXContainerItemProxy */;
+		};
+		C506D0938660C2C6F944F892AAEC64FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OGSwitch;
+			target = 20D78FC9B8066B175F313EB64FEBC9EA /* OGSwitch */;
+			targetProxy = D181D5A3D031CCE08D6E5DCB5EE60F8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0253CCDEE11BB2E876CF8C6EBDC6E1A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		57278258570B2E1B5F48FA6CB35B8CB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E68200589E3B417DA8C74A726CB2153 /* OGSwitch.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/OGSwitch/OGSwitch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OGSwitch/OGSwitch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/OGSwitch/OGSwitch.modulemap";
+				PRODUCT_MODULE_NAME = OGSwitch;
+				PRODUCT_NAME = OGSwitch;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5D90559411EA2D0B33C8DB1257E51D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C95BD2100834FE8C6AD8AAF78513557 /* LoginServiceKit.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/LoginServiceKit/LoginServiceKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LoginServiceKit/LoginServiceKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/LoginServiceKit/LoginServiceKit.modulemap";
+				PRODUCT_MODULE_NAME = LoginServiceKit;
+				PRODUCT_NAME = LoginServiceKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DFE4A3871D1A561339B21A05462E21E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BF9AF4C535D24577653DCAA721BD486 /* Magnet.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Magnet/Magnet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Magnet/Magnet-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Magnet/Magnet.modulemap";
+				PRODUCT_MODULE_NAME = Magnet;
+				PRODUCT_NAME = Magnet;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6DC6BBF7D2A721A4E91A75A28EEB8E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		879D51EF4D147F555EE7B053E348394D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5333727654E602B5AB468791EED5C5A5 /* Pods-HideAndSeek.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-HideAndSeek/Pods-HideAndSeek-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Pods-HideAndSeek/Pods-HideAndSeek.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9FAF99F0E97ED2DD12FDCC6851A25477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E68200589E3B417DA8C74A726CB2153 /* OGSwitch.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/OGSwitch/OGSwitch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OGSwitch/OGSwitch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/OGSwitch/OGSwitch.modulemap";
+				PRODUCT_MODULE_NAME = OGSwitch;
+				PRODUCT_NAME = OGSwitch;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8134334C3A8C0069B8D14247C294D12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BF9AF4C535D24577653DCAA721BD486 /* Magnet.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Magnet/Magnet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Magnet/Magnet-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Magnet/Magnet.modulemap";
+				PRODUCT_MODULE_NAME = Magnet;
+				PRODUCT_NAME = Magnet;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C74EBF15A9058B3C5FF74D4138EEAD98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F8647EF27B687C09DF8EA2DEDCDB6DB /* Pods-HideAndSeek.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-HideAndSeek/Pods-HideAndSeek-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Pods-HideAndSeek/Pods-HideAndSeek.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E11D1C058B0BEFD50B5C1DF302025108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C95BD2100834FE8C6AD8AAF78513557 /* LoginServiceKit.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/LoginServiceKit/LoginServiceKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LoginServiceKit/LoginServiceKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/LoginServiceKit/LoginServiceKit.modulemap";
+				PRODUCT_MODULE_NAME = LoginServiceKit;
+				PRODUCT_NAME = LoginServiceKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		329F79C859F85ECB9B0969CDE28E789E /* Build configuration list for PBXNativeTarget "OGSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57278258570B2E1B5F48FA6CB35B8CB7 /* Debug */,
+				9FAF99F0E97ED2DD12FDCC6851A25477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC6BBF7D2A721A4E91A75A28EEB8E83 /* Debug */,
+				0253CCDEE11BB2E876CF8C6EBDC6E1A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8745488ED38C227BB34B0E26E938F0AC /* Build configuration list for PBXNativeTarget "Pods-HideAndSeek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879D51EF4D147F555EE7B053E348394D /* Debug */,
+				C74EBF15A9058B3C5FF74D4138EEAD98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6310DB0AF3F4FB8C97CF81017433C2D /* Build configuration list for PBXNativeTarget "LoginServiceKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D90559411EA2D0B33C8DB1257E51D9A /* Debug */,
+				E11D1C058B0BEFD50B5C1DF302025108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE57016A0234D4A4BDA352F5D7EDF9CD /* Build configuration list for PBXNativeTarget "Magnet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DFE4A3871D1A561339B21A05462E21E /* Debug */,
+				A8134334C3A8C0069B8D14247C294D12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -3,26 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DDD2551E1BDB4EA34EF8C7C /* Pods_HideAndSeek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F891E094D33DA67D748D4494 /* Pods_HideAndSeek.framework */; };
+		EB60D18D22F334C700E8DF56 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB60D18C22F334C700E8DF56 /* MainMenu.xib */; };
+		EB60D18F22F3617C00E8DF56 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB60D18E22F3617C00E8DF56 /* StatusMenuController.swift */; };
+		EB925B5823A8CA5300E8950C /* Hider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB925B5723A8CA5300E8950C /* Hider.swift */; };
+		EB925B5A23A8CAD200E8950C /* HideOrSeek.scpt in Resources */ = {isa = PBXBuildFile; fileRef = EB925B5923A8CAD200E8950C /* HideOrSeek.scpt */; };
+		EB925B6123A8F63E00E8950C /* desktopStatus.scpt in Resources */ = {isa = PBXBuildFile; fileRef = EB925B6023A8F63E00E8950C /* desktopStatus.scpt */; };
+		EB925B6323AB56AB00E8950C /* CommandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB925B6223AB56AB00E8950C /* CommandView.swift */; };
+		EB925B6523AB64E300E8950C /* AppleScriptExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB925B6423AB64E300E8950C /* AppleScriptExecutor.swift */; };
 		EBD1A9EA22B6EA920026F1C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD1A9E922B6EA920026F1C3 /* AppDelegate.swift */; };
-		EBD1A9EC22B6EA920026F1C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD1A9EB22B6EA920026F1C3 /* ViewController.swift */; };
 		EBD1A9EE22B6EA930026F1C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD1A9ED22B6EA930026F1C3 /* Assets.xcassets */; };
-		EBD1A9F122B6EA930026F1C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD1A9EF22B6EA930026F1C3 /* Main.storyboard */; };
 		EBD1A9FA22B6ECA30026F1C3 /* Switcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD1A9F922B6ECA30026F1C3 /* Switcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CFA9A34A6901F09D0CCE109A /* Pods-HideAndSeek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HideAndSeek.release.xcconfig"; path = "Target Support Files/Pods-HideAndSeek/Pods-HideAndSeek.release.xcconfig"; sourceTree = "<group>"; };
+		D0CD147FF8980E02FEC8A011 /* Pods-HideAndSeek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HideAndSeek.debug.xcconfig"; path = "Target Support Files/Pods-HideAndSeek/Pods-HideAndSeek.debug.xcconfig"; sourceTree = "<group>"; };
+		EB60D18C22F334C700E8DF56 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		EB60D18E22F3617C00E8DF56 /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		EB925B5723A8CA5300E8950C /* Hider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hider.swift; sourceTree = "<group>"; };
+		EB925B5923A8CAD200E8950C /* HideOrSeek.scpt */ = {isa = PBXFileReference; lastKnownFileType = text; path = HideOrSeek.scpt; sourceTree = "<group>"; };
+		EB925B6023A8F63E00E8950C /* desktopStatus.scpt */ = {isa = PBXFileReference; lastKnownFileType = text; path = desktopStatus.scpt; sourceTree = "<group>"; };
+		EB925B6223AB56AB00E8950C /* CommandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandView.swift; sourceTree = "<group>"; };
+		EB925B6423AB64E300E8950C /* AppleScriptExecutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleScriptExecutor.swift; sourceTree = "<group>"; };
 		EBD1A9E622B6EA920026F1C3 /* HideAndSeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HideAndSeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBD1A9E922B6EA920026F1C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EBD1A9EB22B6EA920026F1C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EBD1A9ED22B6EA930026F1C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EBD1A9F022B6EA930026F1C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EBD1A9F222B6EA930026F1C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBD1A9F322B6EA930026F1C3 /* HideAndSeek.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HideAndSeek.entitlements; sourceTree = "<group>"; };
 		EBD1A9F922B6ECA30026F1C3 /* Switcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switcher.swift; sourceTree = "<group>"; };
+		F891E094D33DA67D748D4494 /* Pods_HideAndSeek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HideAndSeek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,17 +44,72 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DDD2551E1BDB4EA34EF8C7C /* Pods_HideAndSeek.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D3A8C0E3C7C3A59B6AAC607 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F891E094D33DA67D748D4494 /* Pods_HideAndSeek.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B625D85ECAFB39130BD04CAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0CD147FF8980E02FEC8A011 /* Pods-HideAndSeek.debug.xcconfig */,
+				CFA9A34A6901F09D0CCE109A /* Pods-HideAndSeek.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EB925B5F23A8F61D00E8950C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EB925B5923A8CAD200E8950C /* HideOrSeek.scpt */,
+				EB925B6023A8F63E00E8950C /* desktopStatus.scpt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EB925B6623ABA54300E8950C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB925B6423AB64E300E8950C /* AppleScriptExecutor.swift */,
+				EBD1A9F922B6ECA30026F1C3 /* Switcher.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB925B6723ABA57100E8950C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EB60D18C22F334C700E8DF56 /* MainMenu.xib */,
+				EB925B6223AB56AB00E8950C /* CommandView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EB925B6823ABA59000E8950C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EB60D18E22F3617C00E8DF56 /* StatusMenuController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		EBD1A9DD22B6EA910026F1C3 = {
 			isa = PBXGroup;
 			children = (
 				EBD1A9E822B6EA920026F1C3 /* HideAndSeek */,
 				EBD1A9E722B6EA920026F1C3 /* Products */,
+				B625D85ECAFB39130BD04CAF /* Pods */,
+				5D3A8C0E3C7C3A59B6AAC607 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +125,14 @@
 			isa = PBXGroup;
 			children = (
 				EBD1A9E922B6EA920026F1C3 /* AppDelegate.swift */,
-				EBD1A9EB22B6EA920026F1C3 /* ViewController.swift */,
+				EB925B6823ABA59000E8950C /* Controller */,
+				EB925B6723ABA57100E8950C /* View */,
+				EB925B6623ABA54300E8950C /* Model */,
+				EB925B5F23A8F61D00E8950C /* Resources */,
+				EB925B5723A8CA5300E8950C /* Hider.swift */,
 				EBD1A9ED22B6EA930026F1C3 /* Assets.xcassets */,
-				EBD1A9EF22B6EA930026F1C3 /* Main.storyboard */,
 				EBD1A9F222B6EA930026F1C3 /* Info.plist */,
 				EBD1A9F322B6EA930026F1C3 /* HideAndSeek.entitlements */,
-				EBD1A9F922B6ECA30026F1C3 /* Switcher.swift */,
 			);
 			path = HideAndSeek;
 			sourceTree = "<group>";
@@ -73,9 +144,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EBD1A9F622B6EA930026F1C3 /* Build configuration list for PBXNativeTarget "HideAndSeek" */;
 			buildPhases = (
+				D27CEC473041452F9735DDD8 /* [CP] Check Pods Manifest.lock */,
 				EBD1A9E222B6EA920026F1C3 /* Sources */,
 				EBD1A9E322B6EA920026F1C3 /* Frameworks */,
 				EBD1A9E422B6EA920026F1C3 /* Resources */,
+				AD65E3472CA06D696D3DBC59 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -93,7 +166,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Mohamed Arradi-Alaoui";
 				TargetAttributes = {
 					EBD1A9E522B6EA920026F1C3 = {
@@ -129,36 +202,72 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB925B6123A8F63E00E8950C /* desktopStatus.scpt in Resources */,
+				EB925B5A23A8CAD200E8950C /* HideOrSeek.scpt in Resources */,
 				EBD1A9EE22B6EA930026F1C3 /* Assets.xcassets in Resources */,
-				EBD1A9F122B6EA930026F1C3 /* Main.storyboard in Resources */,
+				EB60D18D22F334C700E8DF56 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AD65E3472CA06D696D3DBC59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HideAndSeek/Pods-HideAndSeek-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HideAndSeek/Pods-HideAndSeek-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HideAndSeek/Pods-HideAndSeek-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D27CEC473041452F9735DDD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HideAndSeek-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EBD1A9E222B6EA920026F1C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBD1A9EC22B6EA920026F1C3 /* ViewController.swift in Sources */,
 				EBD1A9EA22B6EA920026F1C3 /* AppDelegate.swift in Sources */,
+				EB925B6323AB56AB00E8950C /* CommandView.swift in Sources */,
+				EB925B5823A8CA5300E8950C /* Hider.swift in Sources */,
+				EB925B6523AB64E300E8950C /* AppleScriptExecutor.swift in Sources */,
+				EB60D18F22F3617C00E8DF56 /* StatusMenuController.swift in Sources */,
 				EBD1A9FA22B6ECA30026F1C3 /* Switcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		EBD1A9EF22B6EA930026F1C3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EBD1A9F022B6EA930026F1C3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EBD1A9F422B6EA930026F1C3 /* Debug */ = {
@@ -212,7 +321,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -267,7 +376,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -278,10 +387,15 @@
 		};
 		EBD1A9F722B6EA930026F1C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0CD147FF8980E02FEC8A011 /* Pods-HideAndSeek.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HideAndSeek/HideAndSeek.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8JVK53ZY4C;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = HideAndSeek/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,10 +409,15 @@
 		};
 		EBD1A9F822B6EA930026F1C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFA9A34A6901F09D0CCE109A /* Pods-HideAndSeek.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HideAndSeek/HideAndSeek.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8JVK53ZY4C;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = HideAndSeek/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

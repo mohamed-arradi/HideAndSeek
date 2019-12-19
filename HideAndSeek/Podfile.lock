@@ -1,0 +1,32 @@
+PODS:
+  - LoginServiceKit (2.1.0)
+  - Magnet (2.3.1)
+  - OGSwitch (1.0)
+
+DEPENDENCIES:
+  - LoginServiceKit (from `https://github.com/Clipy/LoginServiceKit.git`)
+  - Magnet
+  - OGSwitch
+
+SPEC REPOS:
+  trunk:
+    - Magnet
+    - OGSwitch
+
+EXTERNAL SOURCES:
+  LoginServiceKit:
+    :git: https://github.com/Clipy/LoginServiceKit.git
+
+CHECKOUT OPTIONS:
+  LoginServiceKit:
+    :commit: 01b162248760b5fed4c7bffebee37eb92351b41b
+    :git: https://github.com/Clipy/LoginServiceKit.git
+
+SPEC CHECKSUMS:
+  LoginServiceKit: 9a8b258c3111fa0d9585615052f778b08be92302
+  Magnet: f8dac2ffc845ffe68b2dd21c68a801f866f4a098
+  OGSwitch: 8874954f408834e8b7f9d8e69bcfa7ad6fd270fa
+
+PODFILE CHECKSUM: d1579f9a90828dc98bb1f1e3117329c1d612e4c5
+
+COCOAPODS: 1.8.4

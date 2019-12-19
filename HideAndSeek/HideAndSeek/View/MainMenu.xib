@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15702" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15702"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="Voe-Tx-rLC" id="GzC-gU-4Uq"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="HideAndSeek" customModuleProvider="target"/>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <customObject id="sS3-a3-GGc" userLabel="StatusMenuController" customClass="StatusMenuController" customModule="HideAndSeek" customModuleProvider="target">
+            <connections>
+                <outlet property="hideSwitchView" destination="HhN-DY-IST" id="y57-2a-6gh"/>
+                <outlet property="statusMenu" destination="qZp-Ad-uDX" id="XFG-js-aKj"/>
+            </connections>
+        </customObject>
+        <menu title="Menu" id="qZp-Ad-uDX">
+            <items>
+                <menuItem title="Status Mode" id="d2M-wS-o1T">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="FpG-qr-e8g"/>
+                <menuItem title="Quit" id="k4N-2W-XAy">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="quitClicked:" target="sS3-a3-GGc" id="Eue-jt-z1Q"/>
+                    </connections>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="-95" y="275"/>
+        </menu>
+        <customView misplaced="YES" id="HhN-DY-IST" userLabel="HideSwitchView" customClass="CommandView" customModule="HideAndSeek" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="220" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="dIv-Xc-Vh9">
+                    <rect key="frame" x="18" y="22" width="126" height="16"/>
+                    <textFieldCell key="cell" alignment="left" title="Hide Desktop Icon" id="LnS-sR-65g">
+                        <font key="font" usesAppearanceFont="YES"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="zT5-xC-S3S" customClass="OGSwitch" customModule="OGSwitch">
+                    <rect key="frame" x="150" y="20" width="50" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="0ah-tQ-urI"/>
+                        <constraint firstAttribute="height" constant="20" id="zr3-IG-fXi"/>
+                    </constraints>
+                    <connections>
+                        <action selector="toogleModeWithSender:" target="HhN-DY-IST" id="vfl-fw-O1Z"/>
+                    </connections>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="zT5-xC-S3S" firstAttribute="leading" secondItem="dIv-Xc-Vh9" secondAttribute="trailing" constant="8" symbolic="YES" id="20h-oY-enj"/>
+                <constraint firstAttribute="trailing" secondItem="zT5-xC-S3S" secondAttribute="trailing" constant="20" symbolic="YES" id="BQT-tz-adD"/>
+                <constraint firstItem="dIv-Xc-Vh9" firstAttribute="centerY" secondItem="zT5-xC-S3S" secondAttribute="centerY" id="OZ1-o9-fL7"/>
+                <constraint firstItem="dIv-Xc-Vh9" firstAttribute="leading" secondItem="HhN-DY-IST" secondAttribute="leading" constant="20" symbolic="YES" id="XR5-KU-eCr"/>
+                <constraint firstItem="zT5-xC-S3S" firstAttribute="top" secondItem="HhN-DY-IST" secondAttribute="top" constant="20" symbolic="YES" id="dJW-Yc-S2v"/>
+                <constraint firstAttribute="bottom" secondItem="zT5-xC-S3S" secondAttribute="bottom" constant="20" symbolic="YES" id="zGT-ip-lzX"/>
+            </constraints>
+            <connections>
+                <outlet property="descriptionLabel" destination="dIv-Xc-Vh9" id="oBR-3w-z5q"/>
+                <outlet property="hideSwitch" destination="zT5-xC-S3S" id="bND-gA-wYg"/>
+                <outlet property="menu" destination="qZp-Ad-uDX" id="211-BK-y0T"/>
+            </connections>
+            <point key="canvasLocation" x="-145" y="379"/>
+        </customView>
+    </objects>
+</document>
