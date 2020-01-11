@@ -10,3 +10,7 @@
 #endif
 #endif
 
+
+FOUNDATION_EXPORT double HotKeyVersionNumber;
+FOUNDATION_EXPORT const unsigned char HotKeyVersionString[];
+

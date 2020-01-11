@@ -1,6 +1,0 @@
-framework module OGSwitch {
-  umbrella header "OGSwitch-umbrella.h"
-
-  export *
-  module * { export * }
-}

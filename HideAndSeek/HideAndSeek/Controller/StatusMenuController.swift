@@ -8,39 +8,44 @@
 
 import Cocoa
 import Foundation
-import Magnet
+import HotKey
 
 class StatusMenuController: NSObject, NSAlertDelegate {
     
     @IBOutlet weak var statusMenu: NSMenu!
     @IBOutlet weak var hideSwitchView: CommandView!
-
+    
     let statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
     
     var statusMenuItem: NSMenuItem!
+    var hotKey: HotKey!
     
     override func awakeFromNib() {
         
         statusItem.menu = statusMenu
-        let icon = NSImage(named: "StatusIcon")
+        let icon = NSImage(named: "StatusIconHidden")
         icon?.isTemplate = true
         statusItem.button?.image = icon
         statusItem.menu = statusMenu
-
+        
         statusMenuItem = statusMenu.item(at: 0)
         statusMenuItem.view = hideSwitchView
         
-
-        if let keyCombo = KeyCombo(keyCode: 11, carbonModifiers: 4352) {
-            let hotKey = HotKey(identifier: "CommandControlB", keyCombo: keyCombo, target: self, action: #selector(switchDesktopMode))
-            hotKey.register()
+        hotKey = HotKey(key: .h, modifiers: [.command, .option])
+        
+        hotKey.keyDownHandler = {
+            self.hideSwitchView.changeHideMode()
+            let status = AppleScriptExecutor().runScript(scriptName: "desktopStatus")
+            self.statusItem.button?.image = self.imageForStatus(hidden: !status.success)
         }
     }
     
-    // MARK: - IBAction
-    
-    @objc func switchDesktopMode() {
-        hideSwitchView.toogleMode(sender: hideSwitchView.hideSwitch)
+    fileprivate func imageForStatus(hidden: Bool) -> NSImage {
+        
+        let icon = NSImage(imageLiteralResourceName: hidden ? "StatusIconHidden" : "StatusIconVisible")
+        icon.isTemplate = true
+        
+        return icon
     }
     
     @IBAction func quitClicked(_ sender: NSMenuItem) {

@@ -1,4 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-HideAndSeek/Pods-HideAndSeek-frameworks.sh
+${BUILT_PRODUCTS_DIR}/HotKey/HotKey.framework
 ${BUILT_PRODUCTS_DIR}/LoginServiceKit/LoginServiceKit.framework
-${BUILT_PRODUCTS_DIR}/Magnet/Magnet.framework
-${BUILT_PRODUCTS_DIR}/OGSwitch/OGSwitch.framework

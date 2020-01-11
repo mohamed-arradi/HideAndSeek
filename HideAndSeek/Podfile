@@ -4,10 +4,7 @@
 target 'HideAndSeek' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
   # Pods for HideAndSeek
-  
-  pod 'OGSwitch'
   pod 'LoginServiceKit', :git => 'https://github.com/Clipy/LoginServiceKit.git'
-   pod 'Magnet'
+  pod 'HotKey'
 end

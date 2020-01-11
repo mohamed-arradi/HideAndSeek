@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15702" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
-        <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15702"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -34,45 +33,82 @@
                     </connections>
                 </menuItem>
             </items>
-            <point key="canvasLocation" x="-95" y="275"/>
+            <point key="canvasLocation" x="-116" y="232"/>
         </menu>
         <customView misplaced="YES" id="HhN-DY-IST" userLabel="HideSwitchView" customClass="CommandView" customModule="HideAndSeek" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="220" height="60"/>
+            <rect key="frame" x="0.0" y="0.0" width="188" height="132"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="dIv-Xc-Vh9">
-                    <rect key="frame" x="18" y="22" width="126" height="16"/>
-                    <textFieldCell key="cell" alignment="left" title="Hide Desktop Icon" id="LnS-sR-65g">
-                        <font key="font" usesAppearanceFont="YES"/>
-                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="foe-gQ-CQh">
+                    <rect key="frame" x="136" y="106" width="50" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" borderStyle="bezel" title="(⌘+⌥+H)" drawsBackground="YES" id="VsA-Xv-vuC">
+                        <font key="font" metaFont="system" size="10"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" name="linkColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <customView translatesAutoresizingMaskIntoConstraints="NO" id="zT5-xC-S3S" customClass="OGSwitch" customModule="OGSwitch">
-                    <rect key="frame" x="150" y="20" width="50" height="20"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="50" id="0ah-tQ-urI"/>
-                        <constraint firstAttribute="height" constant="20" id="zr3-IG-fXi"/>
-                    </constraints>
-                    <connections>
-                        <action selector="toogleModeWithSender:" target="HhN-DY-IST" id="vfl-fw-O1Z"/>
-                    </connections>
-                </customView>
+                <stackView distribution="fill" orientation="vertical" alignment="centerX" spacing="13" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bg3-d4-9BE">
+                    <rect key="frame" x="20" y="20" width="148" height="97"/>
+                    <subviews>
+                        <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="awZ-2W-pGZ" customClass="FlippedImageView" customModule="HideAndSeek" customModuleProvider="target">
+                            <rect key="frame" x="17" y="37" width="114" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="aV5-eJ-5nB"/>
+                            </constraints>
+                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="EyeLock" id="Fly-m2-4eb"/>
+                            <connections>
+                                <action selector="toogleImageModeWithSender:" target="HhN-DY-IST" id="fMA-KH-K3U"/>
+                            </connections>
+                        </imageView>
+                        <stackView distribution="fill" orientation="vertical" alignment="centerX" spacing="13" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TaC-7D-SYc">
+                            <rect key="frame" x="0.0" y="0.0" width="148" height="24"/>
+                            <subviews>
+                                <button verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nbx-TH-KSn">
+                                    <rect key="frame" x="13" y="0.0" width="122" height="24"/>
+                                    <buttonCell key="cell" type="square" title="Hide Desktop Icon" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" inset="2" id="5ha-7E-0Hb">
+                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                    <color key="contentTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <connections>
+                                        <action selector="toogleModeWithSender:" target="HhN-DY-IST" id="KHk-hE-Fzh"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <visibilityPriorities>
+                                <integer value="1000"/>
+                            </visibilityPriorities>
+                            <customSpacing>
+                                <real value="3.4028234663852886e+38"/>
+                            </customSpacing>
+                        </stackView>
+                    </subviews>
+                    <visibilityPriorities>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                    </visibilityPriorities>
+                    <customSpacing>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                    </customSpacing>
+                </stackView>
             </subviews>
             <constraints>
-                <constraint firstItem="zT5-xC-S3S" firstAttribute="leading" secondItem="dIv-Xc-Vh9" secondAttribute="trailing" constant="8" symbolic="YES" id="20h-oY-enj"/>
-                <constraint firstAttribute="trailing" secondItem="zT5-xC-S3S" secondAttribute="trailing" constant="20" symbolic="YES" id="BQT-tz-adD"/>
-                <constraint firstItem="dIv-Xc-Vh9" firstAttribute="centerY" secondItem="zT5-xC-S3S" secondAttribute="centerY" id="OZ1-o9-fL7"/>
-                <constraint firstItem="dIv-Xc-Vh9" firstAttribute="leading" secondItem="HhN-DY-IST" secondAttribute="leading" constant="20" symbolic="YES" id="XR5-KU-eCr"/>
-                <constraint firstItem="zT5-xC-S3S" firstAttribute="top" secondItem="HhN-DY-IST" secondAttribute="top" constant="20" symbolic="YES" id="dJW-Yc-S2v"/>
-                <constraint firstAttribute="bottom" secondItem="zT5-xC-S3S" secondAttribute="bottom" constant="20" symbolic="YES" id="zGT-ip-lzX"/>
+                <constraint firstAttribute="bottom" secondItem="bg3-d4-9BE" secondAttribute="bottom" constant="20" symbolic="YES" id="X2k-x7-Vrg"/>
+                <constraint firstItem="bg3-d4-9BE" firstAttribute="top" secondItem="HhN-DY-IST" secondAttribute="top" constant="20" symbolic="YES" id="XP8-XY-Mow"/>
+                <constraint firstItem="bg3-d4-9BE" firstAttribute="leading" secondItem="HhN-DY-IST" secondAttribute="leading" constant="20" symbolic="YES" id="bfL-nq-8T8"/>
+                <constraint firstAttribute="trailing" secondItem="bg3-d4-9BE" secondAttribute="trailing" constant="20" symbolic="YES" id="rpS-e2-tHo"/>
             </constraints>
             <connections>
-                <outlet property="descriptionLabel" destination="dIv-Xc-Vh9" id="oBR-3w-z5q"/>
-                <outlet property="hideSwitch" destination="zT5-xC-S3S" id="bND-gA-wYg"/>
+                <outlet property="eyeImageView" destination="awZ-2W-pGZ" id="2p5-td-srD"/>
                 <outlet property="menu" destination="qZp-Ad-uDX" id="211-BK-y0T"/>
+                <outlet property="toogleButton" destination="Nbx-TH-KSn" id="0lm-wF-DYC"/>
             </connections>
-            <point key="canvasLocation" x="-145" y="379"/>
+            <point key="canvasLocation" x="-161" y="420"/>
         </customView>
     </objects>
+    <resources>
+        <image name="EyeLock" width="60" height="60"/>
+    </resources>
 </document>

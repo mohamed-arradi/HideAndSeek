@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "20D78FC9B8066B175F313EB64FEBC9EA"
-               BuildableName = "OGSwitch.framework"
-               BlueprintName = "OGSwitch"
+               BlueprintIdentifier = "DB4D977E4336D9F2E9E510A33CD1DB6D"
+               BuildableName = "HotKey.framework"
+               BlueprintName = "HotKey"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

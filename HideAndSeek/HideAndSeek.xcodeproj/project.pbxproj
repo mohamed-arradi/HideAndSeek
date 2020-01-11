@@ -10,14 +10,12 @@
 		5DDD2551E1BDB4EA34EF8C7C /* Pods_HideAndSeek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F891E094D33DA67D748D4494 /* Pods_HideAndSeek.framework */; };
 		EB60D18D22F334C700E8DF56 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB60D18C22F334C700E8DF56 /* MainMenu.xib */; };
 		EB60D18F22F3617C00E8DF56 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB60D18E22F3617C00E8DF56 /* StatusMenuController.swift */; };
-		EB925B5823A8CA5300E8950C /* Hider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB925B5723A8CA5300E8950C /* Hider.swift */; };
 		EB925B5A23A8CAD200E8950C /* HideOrSeek.scpt in Resources */ = {isa = PBXBuildFile; fileRef = EB925B5923A8CAD200E8950C /* HideOrSeek.scpt */; };
 		EB925B6123A8F63E00E8950C /* desktopStatus.scpt in Resources */ = {isa = PBXBuildFile; fileRef = EB925B6023A8F63E00E8950C /* desktopStatus.scpt */; };
 		EB925B6323AB56AB00E8950C /* CommandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB925B6223AB56AB00E8950C /* CommandView.swift */; };
 		EB925B6523AB64E300E8950C /* AppleScriptExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB925B6423AB64E300E8950C /* AppleScriptExecutor.swift */; };
 		EBD1A9EA22B6EA920026F1C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD1A9E922B6EA920026F1C3 /* AppDelegate.swift */; };
 		EBD1A9EE22B6EA930026F1C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD1A9ED22B6EA930026F1C3 /* Assets.xcassets */; };
-		EBD1A9FA22B6ECA30026F1C3 /* Switcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD1A9F922B6ECA30026F1C3 /* Switcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +23,6 @@
 		D0CD147FF8980E02FEC8A011 /* Pods-HideAndSeek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HideAndSeek.debug.xcconfig"; path = "Target Support Files/Pods-HideAndSeek/Pods-HideAndSeek.debug.xcconfig"; sourceTree = "<group>"; };
 		EB60D18C22F334C700E8DF56 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		EB60D18E22F3617C00E8DF56 /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
-		EB925B5723A8CA5300E8950C /* Hider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hider.swift; sourceTree = "<group>"; };
 		EB925B5923A8CAD200E8950C /* HideOrSeek.scpt */ = {isa = PBXFileReference; lastKnownFileType = text; path = HideOrSeek.scpt; sourceTree = "<group>"; };
 		EB925B6023A8F63E00E8950C /* desktopStatus.scpt */ = {isa = PBXFileReference; lastKnownFileType = text; path = desktopStatus.scpt; sourceTree = "<group>"; };
 		EB925B6223AB56AB00E8950C /* CommandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandView.swift; sourceTree = "<group>"; };
@@ -35,7 +32,6 @@
 		EBD1A9ED22B6EA930026F1C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBD1A9F222B6EA930026F1C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBD1A9F322B6EA930026F1C3 /* HideAndSeek.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HideAndSeek.entitlements; sourceTree = "<group>"; };
-		EBD1A9F922B6ECA30026F1C3 /* Switcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switcher.swift; sourceTree = "<group>"; };
 		F891E094D33DA67D748D4494 /* Pods_HideAndSeek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HideAndSeek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -81,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				EB925B6423AB64E300E8950C /* AppleScriptExecutor.swift */,
-				EBD1A9F922B6ECA30026F1C3 /* Switcher.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -129,7 +124,6 @@
 				EB925B6723ABA57100E8950C /* View */,
 				EB925B6623ABA54300E8950C /* Model */,
 				EB925B5F23A8F61D00E8950C /* Resources */,
-				EB925B5723A8CA5300E8950C /* Hider.swift */,
 				EBD1A9ED22B6EA930026F1C3 /* Assets.xcassets */,
 				EBD1A9F222B6EA930026F1C3 /* Info.plist */,
 				EBD1A9F322B6EA930026F1C3 /* HideAndSeek.entitlements */,
@@ -260,10 +254,8 @@
 			files = (
 				EBD1A9EA22B6EA920026F1C3 /* AppDelegate.swift in Sources */,
 				EB925B6323AB56AB00E8950C /* CommandView.swift in Sources */,
-				EB925B5823A8CA5300E8950C /* Hider.swift in Sources */,
 				EB925B6523AB64E300E8950C /* AppleScriptExecutor.swift in Sources */,
 				EB60D18F22F3617C00E8DF56 /* StatusMenuController.swift in Sources */,
-				EBD1A9FA22B6ECA30026F1C3 /* Switcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
