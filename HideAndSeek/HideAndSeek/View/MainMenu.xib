@@ -35,12 +35,12 @@
             </items>
             <point key="canvasLocation" x="-116" y="232"/>
         </menu>
-        <customView misplaced="YES" id="HhN-DY-IST" userLabel="HideSwitchView" customClass="CommandView" customModule="HideAndSeek" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="188" height="132"/>
+        <customView id="HhN-DY-IST" userLabel="HideSwitchView" customClass="CommandView" customModule="HideAndSeek" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="188" height="137"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="foe-gQ-CQh">
-                    <rect key="frame" x="136" y="106" width="50" height="21"/>
+                    <rect key="frame" x="136" y="111" width="50" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" borderStyle="bezel" title="(⌘+⌥+H)" drawsBackground="YES" id="VsA-Xv-vuC">
                         <font key="font" metaFont="system" size="10"/>
@@ -55,16 +55,17 @@
                             <rect key="frame" x="17" y="37" width="114" height="60"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="60" id="aV5-eJ-5nB"/>
+                                <constraint firstAttribute="width" constant="114" id="ppX-Qm-Mph"/>
                             </constraints>
                             <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="EyeLock" id="Fly-m2-4eb"/>
                             <connections>
                                 <action selector="toogleImageModeWithSender:" target="HhN-DY-IST" id="fMA-KH-K3U"/>
                             </connections>
                         </imageView>
-                        <stackView distribution="fill" orientation="vertical" alignment="centerX" spacing="13" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TaC-7D-SYc">
+                        <stackView distribution="fill" orientation="vertical" alignment="centerX" spacing="13" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TaC-7D-SYc">
                             <rect key="frame" x="0.0" y="0.0" width="148" height="24"/>
                             <subviews>
-                                <button verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nbx-TH-KSn">
+                                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Nbx-TH-KSn">
                                     <rect key="frame" x="13" y="0.0" width="122" height="24"/>
                                     <buttonCell key="cell" type="square" title="Hide Desktop Icon" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" inset="2" id="5ha-7E-0Hb">
                                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -84,6 +85,9 @@
                             </customSpacing>
                         </stackView>
                     </subviews>
+                    <constraints>
+                        <constraint firstItem="TaC-7D-SYc" firstAttribute="leading" secondItem="bg3-d4-9BE" secondAttribute="leading" id="ePm-FW-wvX"/>
+                    </constraints>
                     <visibilityPriorities>
                         <integer value="1000"/>
                         <integer value="1000"/>
