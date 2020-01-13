@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5DDD2551E1BDB4EA34EF8C7C /* Pods_HideAndSeek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F891E094D33DA67D748D4494 /* Pods_HideAndSeek.framework */; };
+		EB2F866423CA4CB9005C0FC0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB2F866623CA4CB9005C0FC0 /* Localizable.strings */; };
 		EB60D18D22F334C700E8DF56 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB60D18C22F334C700E8DF56 /* MainMenu.xib */; };
 		EB60D18F22F3617C00E8DF56 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB60D18E22F3617C00E8DF56 /* StatusMenuController.swift */; };
 		EB925B5A23A8CAD200E8950C /* HideOrSeek.scpt in Resources */ = {isa = PBXBuildFile; fileRef = EB925B5923A8CAD200E8950C /* HideOrSeek.scpt */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		CFA9A34A6901F09D0CCE109A /* Pods-HideAndSeek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HideAndSeek.release.xcconfig"; path = "Target Support Files/Pods-HideAndSeek/Pods-HideAndSeek.release.xcconfig"; sourceTree = "<group>"; };
 		D0CD147FF8980E02FEC8A011 /* Pods-HideAndSeek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HideAndSeek.debug.xcconfig"; path = "Target Support Files/Pods-HideAndSeek/Pods-HideAndSeek.debug.xcconfig"; sourceTree = "<group>"; };
+		EB2F866523CA4CB9005C0FC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		EB60D18C22F334C700E8DF56 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		EB60D18E22F3617C00E8DF56 /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
 		EB925B5923A8CAD200E8950C /* HideOrSeek.scpt */ = {isa = PBXFileReference; lastKnownFileType = text; path = HideOrSeek.scpt; sourceTree = "<group>"; };
@@ -64,11 +66,19 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		EB2F866723CA4CC2005C0FC0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		EB925B5F23A8F61D00E8950C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				EB925B5923A8CAD200E8950C /* HideOrSeek.scpt */,
 				EB925B6023A8F63E00E8950C /* desktopStatus.scpt */,
+				EB2F866623CA4CB9005C0FC0 /* Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -123,6 +133,7 @@
 				EB925B6823ABA59000E8950C /* Controller */,
 				EB925B6723ABA57100E8950C /* View */,
 				EB925B6623ABA54300E8950C /* Model */,
+				EB2F866723CA4CC2005C0FC0 /* Extension */,
 				EB925B5F23A8F61D00E8950C /* Resources */,
 				EBD1A9ED22B6EA930026F1C3 /* Assets.xcassets */,
 				EBD1A9F222B6EA930026F1C3 /* Info.plist */,
@@ -196,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB2F866423CA4CB9005C0FC0 /* Localizable.strings in Resources */,
 				EB925B6123A8F63E00E8950C /* desktopStatus.scpt in Resources */,
 				EB925B5A23A8CAD200E8950C /* HideOrSeek.scpt in Resources */,
 				EBD1A9EE22B6EA930026F1C3 /* Assets.xcassets in Resources */,
@@ -260,6 +272,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB2F866623CA4CB9005C0FC0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB2F866523CA4CB9005C0FC0 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EBD1A9F422B6EA930026F1C3 /* Debug */ = {
