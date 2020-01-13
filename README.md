@@ -1,10 +1,10 @@
 # HideAndSeek [![Swift 5.0](https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat)](https://swift.org/)
 
-![Image of HideAndSeek](https://github.com/mohamed-arradi/DarkModeSwitcher/blob/master/images/appIcon.png)
+![Image of HideAndSeek](https://github.com/mohamed-arradi/HideAndSeek/blob/master/images/appIcon.png)
 
 A small Mac OS App that allow you on Mac OS to show or hide your desktop icons with a single shortcut.
 
-![Demo of HideAndSeek](https://github.com/mohamed-arradi/DarkModeSwitcher/blob/master/images/demo.gif)
+![Demo of HideAndSeek](https://github.com/mohamed-arradi/HideAndSeek/blob/master/images/demo.gif)
 
 ## Getting Started
 
