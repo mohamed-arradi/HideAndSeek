@@ -1,4 +1,4 @@
-# HideAndSeek [![Swift 5.0](https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat)](https://swift.org/)
+# HideAndSeek Desktop [![Swift 5.0](https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat)](https://swift.org/)
 
 ![Image of HideAndSeek](images/appIcon.png)
 
