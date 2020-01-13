@@ -1,0 +1,28 @@
+PODS:
+  - HotKey (0.1.2)
+  - LoginServiceKit (2.1.0)
+
+DEPENDENCIES:
+  - HotKey
+  - LoginServiceKit (from `https://github.com/Clipy/LoginServiceKit.git`)
+
+SPEC REPOS:
+  trunk:
+    - HotKey
+
+EXTERNAL SOURCES:
+  LoginServiceKit:
+    :git: https://github.com/Clipy/LoginServiceKit.git
+
+CHECKOUT OPTIONS:
+  LoginServiceKit:
+    :commit: 01b162248760b5fed4c7bffebee37eb92351b41b
+    :git: https://github.com/Clipy/LoginServiceKit.git
+
+SPEC CHECKSUMS:
+  HotKey: ad59450195936c10992438c4210f673de5aee43e
+  LoginServiceKit: 9a8b258c3111fa0d9585615052f778b08be92302
+
+PODFILE CHECKSUM: 2e83e36da130ae29781cccb5ad1dbc8d522765f4
+
+COCOAPODS: 1.8.4
