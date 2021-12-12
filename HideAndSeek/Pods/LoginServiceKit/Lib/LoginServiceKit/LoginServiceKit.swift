@@ -5,16 +5,16 @@
 //  GitHub: https://github.com/clipy
 //  HP: https://clipy-app.com
 //
-//  Copyright © 2015-2019 Clipy Project.
+//  Copyright © 2015-2020 Clipy Project.
 //
 
 //
 //  Some code copyright 2009 Naotaka Morimoto.
 //
-//	Much of this code was taken and adapted from GTMLoginItems of Google
-//	Toolbox for Mac and QSBPreferenceWindowController of Quick Search Box
-//	for the Mac by Google Inc.
-//	This code is also released under Apache License, Version 2.0.
+//    Much of this code was taken and adapted from GTMLoginItems of Google
+//    Toolbox for Mac and QSBPreferenceWindowController of Quick Search Box
+//    for the Mac by Google Inc.
+//    This code is also released under Apache License, Version 2.0.
 //
 
 //  Copyright (c) 2008-2009 Google Inc. All rights reserved.
@@ -58,28 +58,28 @@ public extension LoginServiceKit {
     @discardableResult
     static func addLoginItems(at path: String = Bundle.main.bundlePath) -> Bool {
         guard !isExistLoginItems(at: path) else { return false }
+        guard let snapshots = loginItemsListSnapshots() else { return false }
 
-        guard let sharedFileList = LSSharedFileListCreate(nil, kLSSharedFileListSessionLoginItems.takeRetainedValue(), nil) else { return false }
-        let loginItemList = sharedFileList.takeRetainedValue()
         let url = URL(fileURLWithPath: path)
-        LSSharedFileListInsertItemURL(loginItemList, kLSSharedFileListItemBeforeFirst.takeRetainedValue(), nil, nil, url as CFURL, nil, nil)
+        guard let item = snapshots.items.last else {
+            return false
+        }
+        
+        LSSharedFileListInsertItemURL(snapshots.fileList, item, nil, nil, url as CFURL, nil, nil)
         return true
     }
 
     @discardableResult
     static func removeLoginItems(at path: String = Bundle.main.bundlePath) -> Bool {
         guard isExistLoginItems(at: path) else { return false }
+        guard let snapshots = loginItemsListSnapshots() else { return false }
 
-        guard let sharedFileList = LSSharedFileListCreate(nil, kLSSharedFileListSessionLoginItems.takeRetainedValue(), nil) else { return false }
-        let loginItemList = sharedFileList.takeRetainedValue()
         let url = URL(fileURLWithPath: path)
-        let loginItemsListSnapshot: NSArray = LSSharedFileListCopySnapshot(loginItemList, nil).takeRetainedValue()
-        guard let loginItems = loginItemsListSnapshot as? [LSSharedFileListItem] else { return false }
-        for loginItem in loginItems {
+        for loginItem in snapshots.items {
             guard let resolvedUrl = LSSharedFileListItemCopyResolvedURL(loginItem, 0, nil) else { continue }
             let itemUrl = resolvedUrl.takeRetainedValue() as URL
             guard url.absoluteString == itemUrl.absoluteString else { continue }
-            LSSharedFileListItemRemove(loginItemList, loginItem)
+            LSSharedFileListItemRemove(snapshots.fileList, loginItem)
         }
         return true
     }
@@ -88,18 +88,27 @@ public extension LoginServiceKit {
 private extension LoginServiceKit {
     static func loginItem(at path: String) -> LSSharedFileListItem? {
         guard !path.isEmpty else { return nil }
+        guard let snapshots = loginItemsListSnapshots() else { return nil }
 
-        guard let sharedFileList = LSSharedFileListCreate(nil, kLSSharedFileListSessionLoginItems.takeRetainedValue(), nil) else { return nil }
-        let loginItemList = sharedFileList.takeRetainedValue()
         let url = URL(fileURLWithPath: path)
-        let loginItemsListSnapshot: NSArray = LSSharedFileListCopySnapshot(loginItemList, nil).takeRetainedValue()
-        guard let loginItems = loginItemsListSnapshot as? [LSSharedFileListItem] else { return nil }
-        for loginItem in loginItems {
+        for loginItem in snapshots.items {
             guard let resolvedUrl = LSSharedFileListItemCopyResolvedURL(loginItem, 0, nil) else { continue }
             let itemUrl = resolvedUrl.takeRetainedValue() as URL
             guard url.absoluteString == itemUrl.absoluteString else { continue }
             return loginItem
         }
         return nil
+    }
+
+    static func loginItemsListSnapshots() -> (fileList: LSSharedFileList, items: [LSSharedFileListItem])? {
+        guard let sharedFileList = LSSharedFileListCreate(nil, kLSSharedFileListSessionLoginItems.takeRetainedValue(), nil) else { return nil }
+        let fileList = sharedFileList.takeRetainedValue()
+        guard let lsarray = LSSharedFileListCopySnapshot(fileList, nil)?.takeRetainedValue() else {
+            return (fileList, [])
+        }
+        
+        let loginItemsListSnapshot: NSArray = lsarray
+        let loginItems = loginItemsListSnapshot as? [LSSharedFileListItem]
+        return (fileList, loginItems ?? [])
     }
 }

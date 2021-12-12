@@ -66,13 +66,6 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		EB2F866723CA4CC2005C0FC0 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
 		EB925B5F23A8F61D00E8950C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,7 +126,6 @@
 				EB925B6823ABA59000E8950C /* Controller */,
 				EB925B6723ABA57100E8950C /* View */,
 				EB925B6623ABA54300E8950C /* Model */,
-				EB2F866723CA4CC2005C0FC0 /* Extension */,
 				EB925B5F23A8F61D00E8950C /* Resources */,
 				EBD1A9ED22B6EA930026F1C3 /* Assets.xcassets */,
 				EBD1A9F222B6EA930026F1C3 /* Info.plist */,
@@ -409,6 +401,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 0;
 				DEVELOPMENT_TEAM = 8JVK53ZY4C;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = HideAndSeek/Info.plist;
@@ -416,6 +409,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MARKETING_VERSION = 1.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.macos.HideAndSeek;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -431,6 +425,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 0;
 				DEVELOPMENT_TEAM = 8JVK53ZY4C;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = HideAndSeek/Info.plist;
@@ -438,6 +433,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MARKETING_VERSION = 1.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.macos.HideAndSeek;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
