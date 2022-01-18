@@ -11,10 +11,10 @@
 //
 //  Some code copyright 2009 Naotaka Morimoto.
 //
-//    Much of this code was taken and adapted from GTMLoginItems of Google
-//    Toolbox for Mac and QSBPreferenceWindowController of Quick Search Box
-//    for the Mac by Google Inc.
-//    This code is also released under Apache License, Version 2.0.
+//	Much of this code was taken and adapted from GTMLoginItems of Google
+//	Toolbox for Mac and QSBPreferenceWindowController of Quick Search Box
+//	for the Mac by Google Inc.
+//	This code is also released under Apache License, Version 2.0.
 //
 
 //  Copyright (c) 2008-2009 Google Inc. All rights reserved.
@@ -61,11 +61,10 @@ public extension LoginServiceKit {
         guard let snapshots = loginItemsListSnapshots() else { return false }
 
         let url = URL(fileURLWithPath: path)
-        guard let item = snapshots.items.last else {
+        guard let last = snapshots.items.last else {
             return false
         }
-        
-        LSSharedFileListInsertItemURL(snapshots.fileList, item, nil, nil, url as CFURL, nil, nil)
+        LSSharedFileListInsertItemURL(snapshots.fileList, last, nil, nil, url as CFURL, nil, nil)
         return true
     }
 
@@ -103,11 +102,11 @@ private extension LoginServiceKit {
     static func loginItemsListSnapshots() -> (fileList: LSSharedFileList, items: [LSSharedFileListItem])? {
         guard let sharedFileList = LSSharedFileListCreate(nil, kLSSharedFileListSessionLoginItems.takeRetainedValue(), nil) else { return nil }
         let fileList = sharedFileList.takeRetainedValue()
-        guard let lsarray = LSSharedFileListCopySnapshot(fileList, nil)?.takeRetainedValue() else {
-            return (fileList, [])
+        guard let loginItemsListArray = LSSharedFileListCopySnapshot(fileList, nil) else {
+            return nil
         }
         
-        let loginItemsListSnapshot: NSArray = lsarray
+        let loginItemsListSnapshot: NSArray = loginItemsListArray.takeRetainedValue()
         let loginItems = loginItemsListSnapshot as? [LSSharedFileListItem]
         return (fileList, loginItems ?? [])
     }

@@ -7,34 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29784D27868C289298CBBC341C089C58 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A35D76945B595F8DFFBEFF929318FA8 /* Key.swift */; };
-		39901ED0E424B4AD66D94DBF5ED432A3 /* LoginServiceKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 651BC8FF4EA314C9FEAA887FF32DA305 /* LoginServiceKit-dummy.m */; };
-		4C9EDC3524F5EEC3F58BF7FAD7D46024 /* Pods-HideAndSeek-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 372BB097ECEA878710835FFB03B444D9 /* Pods-HideAndSeek-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4EFB834C22A2E9AA16F16D6561E77074 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123D6DC4B5EFB570985CEFACFC1B93CE /* Cocoa.framework */; };
-		5AC7E7B8F7316B6F468E3A7919954BFB /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0A08161AAA89131150FB117FA3FFD44 /* AppKit.framework */; };
-		5C232150CA77EF06DC418A48F78C822F /* LoginServiceKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472FBAA37CC585A3968BA294306C26EE /* LoginServiceKit.swift */; };
-		6329F2E68803BCDBFC3C3A48DF5109E3 /* HotKey-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7ACD27D698BEE5EB1146CAF76CE3D24 /* HotKey-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		753C094F16E687CC3C027B49F9A6DE3C /* HotKeysController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6E051154852EA2C64270BB244A088E /* HotKeysController.swift */; };
-		7E0F0B51F8360E3ADEB4619A8D2D0CDA /* Pods-HideAndSeek-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B835E9DA77CAD405601C4D92DE8E5F9A /* Pods-HideAndSeek-dummy.m */; };
-		9824BFBFD96E1D47E6D3F787AE79F9A6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123D6DC4B5EFB570985CEFACFC1B93CE /* Cocoa.framework */; };
-		9C995A1C6CEE3603CBD3C829D8ECEF8C /* HotKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F99C39299BFE26C4D33B84EA657E6C1 /* HotKey.swift */; };
-		A3543A70DF8931D1D0C5FA57A6B0FB4B /* HotKey-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D738ED01FA483A726F803FAA55D5559B /* HotKey-dummy.m */; };
-		B1E75E67962EF3891467FAA026346869 /* NSEventModifierFlags+HotKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37A24BB51A4E2C4D586D2A0C0D4DDE3 /* NSEventModifierFlags+HotKey.swift */; };
-		B690623CBB2C64D853AC854EA9B3DD60 /* KeyCombo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39346B2A4B03466EAE27448D8E6A18C /* KeyCombo.swift */; };
-		C0E9E705DDA754D6E1EC52A050650B70 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123D6DC4B5EFB570985CEFACFC1B93CE /* Cocoa.framework */; };
-		F9FBEA632006006292C99342FF7CC2C9 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFBC9A90999F22CE48B198862DFC5B5D /* Carbon.framework */; };
-		FD9EA8AA8D3959577C324CE51105CC90 /* LoginServiceKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B83EA491A09E6E372E03E64A6600C81D /* LoginServiceKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D9F5195693571CB2E0A7CC283E389F9 /* HotKey-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 418FA239575176AB682888A108B2CADD /* HotKey-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F092C9B9B8B2DC25E2AFB7022B8D45D /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E81F6492756EB97096F56436A1CE1548 /* Carbon.framework */; };
+		1A5ADE2BAC8EF01B99C05C6EB082CAE0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC06087B2939703A4EFECAD790F44320 /* Cocoa.framework */; };
+		227A2FB36A93D748AC2CFDB2C3CE6E77 /* HotKeysController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B4BAB00038FCA3AB7977621612FC65 /* HotKeysController.swift */; };
+		37A2B53BE21F363BA94BCB15841395F3 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF537C4B2333ED4B67B788F34AA128F /* AppKit.framework */; };
+		42A6638725788C7B39E6937B298187DF /* NSEventModifierFlags+HotKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C8E5A7293531677A307BBA96EEFFE6 /* NSEventModifierFlags+HotKey.swift */; };
+		47C169342C17B6FBD01BF2C515E15FCE /* LoginServiceKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD258B530378291117B5ADD6E40CC13 /* LoginServiceKit.swift */; };
+		51CBC8515C46435CFDCC05DEFACB951B /* Pods-HideAndSeek-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 372BB097ECEA878710835FFB03B444D9 /* Pods-HideAndSeek-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8044819A3D48FEDB6B28B7528580815B /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = B276B48DDAA7BED6F2DE845F1B90C118 /* Key.swift */; };
+		85FCEAFC82BFC654BC023F98F766F25D /* LoginServiceKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 334500E3FF8762684E55E0C4BED00225 /* LoginServiceKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACBE5807602DBC956EE3F7F2B3086139 /* HotKey-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F4920C1E952B0CA14320D4CFE6F4C0 /* HotKey-dummy.m */; };
+		AF24C8C94268BDC76CD68BC6403DC176 /* Pods-HideAndSeek-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B835E9DA77CAD405601C4D92DE8E5F9A /* Pods-HideAndSeek-dummy.m */; };
+		C2764B467BCAEE0D6E715EA8EF42DFB0 /* KeyCombo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D18AFFC152FA84B2388D15C60AEBC62 /* KeyCombo.swift */; };
+		C581C2DEF03D85273B408768F9E9EC1A /* HotKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D755661D7F938DBE8C5EC95571825F /* HotKey.swift */; };
+		D44070BD9FA26862D9F1BED67BE358C4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC06087B2939703A4EFECAD790F44320 /* Cocoa.framework */; };
+		FE55B9F80EE00D0E99C456023570E3F6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC06087B2939703A4EFECAD790F44320 /* Cocoa.framework */; };
+		FF29B1C3A0C80D7F06F99AFCC237C4CB /* LoginServiceKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 410F77C619E9B14BEAEA5E601C11B1BF /* LoginServiceKit-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8E64352BF0735F9BBF136ECAAFEBF71C /* PBXContainerItemProxy */ = {
+		6D0D5AC2AC0840499EE5AABCA6B58434 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4363B3DEE0E244A6E95B497FB82E7385;
 			remoteInfo = LoginServiceKit;
 		};
-		CE27D2920F32A9499E5EDA7461692A8A /* PBXContainerItemProxy */ = {
+		AFF71418B04EEE5D7471308C16041D1F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -44,117 +44,101 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09DD75B261F3348280868A94DDBA1EA2 /* HotKey-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HotKey-prefix.pch"; sourceTree = "<group>"; };
-		123D6DC4B5EFB570985CEFACFC1B93CE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		27AEFF9479790FC6D438657A0FBC096A /* LoginServiceKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoginServiceKit.xcconfig; sourceTree = "<group>"; };
+		00D755661D7F938DBE8C5EC95571825F /* HotKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HotKey.swift; path = Sources/HotKey/HotKey.swift; sourceTree = "<group>"; };
+		09EDF7C4AF3B10BB3A03C159569A445D /* HotKey-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HotKey-prefix.pch"; sourceTree = "<group>"; };
+		1FF537C4B2333ED4B67B788F34AA128F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
 		282D0107DA1CC789518A52874EA101CB /* Pods-HideAndSeek.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HideAndSeek.modulemap"; sourceTree = "<group>"; };
+		28E2AFE33B76ECC750034BBFABCF2C0A /* HotKey-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HotKey-Info.plist"; sourceTree = "<group>"; };
+		32F4920C1E952B0CA14320D4CFE6F4C0 /* HotKey-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HotKey-dummy.m"; sourceTree = "<group>"; };
+		334500E3FF8762684E55E0C4BED00225 /* LoginServiceKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginServiceKit-umbrella.h"; sourceTree = "<group>"; };
 		372BB097ECEA878710835FFB03B444D9 /* Pods-HideAndSeek-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HideAndSeek-umbrella.h"; sourceTree = "<group>"; };
-		472FBAA37CC585A3968BA294306C26EE /* LoginServiceKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginServiceKit.swift; path = Lib/LoginServiceKit/LoginServiceKit.swift; sourceTree = "<group>"; };
-		47FC87B6C8D50C4422A4EA08984BCD34 /* LoginServiceKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LoginServiceKit.modulemap; sourceTree = "<group>"; };
-		4A35D76945B595F8DFFBEFF929318FA8 /* Key.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Key.swift; path = Sources/HotKey/Key.swift; sourceTree = "<group>"; };
-		5231D60EF5E84BFAC184F73EA4E66D1F /* HotKey-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HotKey-Info.plist"; sourceTree = "<group>"; };
+		410F77C619E9B14BEAEA5E601C11B1BF /* LoginServiceKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LoginServiceKit-dummy.m"; sourceTree = "<group>"; };
+		418FA239575176AB682888A108B2CADD /* HotKey-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HotKey-umbrella.h"; sourceTree = "<group>"; };
 		5333727654E602B5AB468791EED5C5A5 /* Pods-HideAndSeek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HideAndSeek.debug.xcconfig"; sourceTree = "<group>"; };
-		5B202E1921F738792FF5EF1DEF9E73C8 /* HotKey.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HotKey.xcconfig; sourceTree = "<group>"; };
-		651BC8FF4EA314C9FEAA887FF32DA305 /* LoginServiceKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LoginServiceKit-dummy.m"; sourceTree = "<group>"; };
+		579D21246B7EFB97EB851CA576D1B487 /* LoginServiceKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoginServiceKit.release.xcconfig; sourceTree = "<group>"; };
+		5F0B42C56436BBAD652BBA0306E04FE5 /* HotKey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HotKey.debug.xcconfig; sourceTree = "<group>"; };
+		6386A55C9A731EE46FFA3C3440E352BE /* HotKey.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HotKey.modulemap; sourceTree = "<group>"; };
 		675AA5A3C7B48C34CEC0BD4F64601332 /* Pods-HideAndSeek-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HideAndSeek-acknowledgements.plist"; sourceTree = "<group>"; };
 		6F8647EF27B687C09DF8EA2DEDCDB6DB /* Pods-HideAndSeek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HideAndSeek.release.xcconfig"; sourceTree = "<group>"; };
-		6FEDCEECE5EFB5FE74815EDFE9F14C6A /* HotKey.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HotKey.modulemap; sourceTree = "<group>"; };
 		78F13F8BF58C84DA97C7A398305028BC /* Pods-HideAndSeek-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HideAndSeek-acknowledgements.markdown"; sourceTree = "<group>"; };
-		820475DEE643F008B5FBA1874C6447A9 /* LoginServiceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LoginServiceKit.framework; path = LoginServiceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		820475DEE643F008B5FBA1874C6447A9 /* LoginServiceKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LoginServiceKit; path = LoginServiceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8710124225CD6D38D9FAFF94527DD709 /* LoginServiceKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginServiceKit-prefix.pch"; sourceTree = "<group>"; };
+		93C8E5A7293531677A307BBA96EEFFE6 /* NSEventModifierFlags+HotKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSEventModifierFlags+HotKey.swift"; path = "Sources/HotKey/NSEventModifierFlags+HotKey.swift"; sourceTree = "<group>"; };
+		9D18AFFC152FA84B2388D15C60AEBC62 /* KeyCombo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyCombo.swift; path = Sources/HotKey/KeyCombo.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F99C39299BFE26C4D33B84EA657E6C1 /* HotKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HotKey.swift; path = Sources/HotKey/HotKey.swift; sourceTree = "<group>"; };
-		A7ACD27D698BEE5EB1146CAF76CE3D24 /* HotKey-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HotKey-umbrella.h"; sourceTree = "<group>"; };
-		B37A24BB51A4E2C4D586D2A0C0D4DDE3 /* NSEventModifierFlags+HotKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSEventModifierFlags+HotKey.swift"; path = "Sources/HotKey/NSEventModifierFlags+HotKey.swift"; sourceTree = "<group>"; };
+		B276B48DDAA7BED6F2DE845F1B90C118 /* Key.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Key.swift; path = Sources/HotKey/Key.swift; sourceTree = "<group>"; };
+		B79969EEA67AD8637C8F363EFEBCA77E /* LoginServiceKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoginServiceKit.debug.xcconfig; sourceTree = "<group>"; };
 		B835E9DA77CAD405601C4D92DE8E5F9A /* Pods-HideAndSeek-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HideAndSeek-dummy.m"; sourceTree = "<group>"; };
-		B83EA491A09E6E372E03E64A6600C81D /* LoginServiceKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginServiceKit-umbrella.h"; sourceTree = "<group>"; };
-		D2FF33A58D858A2EE0E63773B63AB1B6 /* LoginServiceKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LoginServiceKit-Info.plist"; sourceTree = "<group>"; };
+		BBD258B530378291117B5ADD6E40CC13 /* LoginServiceKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginServiceKit.swift; path = Lib/LoginServiceKit/LoginServiceKit.swift; sourceTree = "<group>"; };
+		D3B4BAB00038FCA3AB7977621612FC65 /* HotKeysController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HotKeysController.swift; path = Sources/HotKey/HotKeysController.swift; sourceTree = "<group>"; };
 		D5447A0E033BFC542CDB02E194C87C51 /* Pods-HideAndSeek-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HideAndSeek-frameworks.sh"; sourceTree = "<group>"; };
-		D738ED01FA483A726F803FAA55D5559B /* HotKey-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HotKey-dummy.m"; sourceTree = "<group>"; };
-		E0A08161AAA89131150FB117FA3FFD44 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
-		E39346B2A4B03466EAE27448D8E6A18C /* KeyCombo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyCombo.swift; path = Sources/HotKey/KeyCombo.swift; sourceTree = "<group>"; };
+		DCA740B2B50A1598107D88F0F7D14D59 /* HotKey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HotKey.release.xcconfig; sourceTree = "<group>"; };
+		DD1F1E041A106005436F0AEF545A6A6C /* LoginServiceKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LoginServiceKit-Info.plist"; sourceTree = "<group>"; };
 		E589E8AB5143963C7158FCB01878E05B /* Pods-HideAndSeek-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HideAndSeek-Info.plist"; sourceTree = "<group>"; };
-		E6885DB09887A8ABE5BB0999F2D18265 /* Pods_HideAndSeek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HideAndSeek.framework; path = "Pods-HideAndSeek.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED5CB45429E4BDD2596F99DFC2F170B5 /* LoginServiceKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginServiceKit-prefix.pch"; sourceTree = "<group>"; };
-		F36B2E7BB4C3E92E4DF7443FAFF3AE3F /* HotKey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HotKey.framework; path = HotKey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC6E051154852EA2C64270BB244A088E /* HotKeysController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HotKeysController.swift; path = Sources/HotKey/HotKeysController.swift; sourceTree = "<group>"; };
-		FFBC9A90999F22CE48B198862DFC5B5D /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Carbon.framework; sourceTree = DEVELOPER_DIR; };
+		E6885DB09887A8ABE5BB0999F2D18265 /* Pods-HideAndSeek */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HideAndSeek"; path = Pods_HideAndSeek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E81F6492756EB97096F56436A1CE1548 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Carbon.framework; sourceTree = DEVELOPER_DIR; };
+		EC06087B2939703A4EFECAD790F44320 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		F36B2E7BB4C3E92E4DF7443FAFF3AE3F /* HotKey */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HotKey; path = HotKey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6149C6FA7EBA7D1A1A76D44923D623A /* LoginServiceKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LoginServiceKit.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3CB65A48D8F6087DBE6EE068559897D9 /* Frameworks */ = {
+		5A1DE6655A176CFEF2B19BD120A3FDA7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9824BFBFD96E1D47E6D3F787AE79F9A6 /* Cocoa.framework in Frameworks */,
+				FE55B9F80EE00D0E99C456023570E3F6 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4229E04D5CC1F0795F90CC06D6646EC /* Frameworks */ = {
+		B95CA6A5583E398AE4698F4CADF813EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EFB834C22A2E9AA16F16D6561E77074 /* Cocoa.framework in Frameworks */,
+				D44070BD9FA26862D9F1BED67BE358C4 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC969627A44DD839E017AD83678B6FF2 /* Frameworks */ = {
+		E69EC1972ACFEE0F1798705423C0CB46 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AC7E7B8F7316B6F468E3A7919954BFB /* AppKit.framework in Frameworks */,
-				F9FBEA632006006292C99342FF7CC2C9 /* Carbon.framework in Frameworks */,
-				C0E9E705DDA754D6E1EC52A050650B70 /* Cocoa.framework in Frameworks */,
+				37A2B53BE21F363BA94BCB15841395F3 /* AppKit.framework in Frameworks */,
+				0F092C9B9B8B2DC25E2AFB7022B8D45D /* Carbon.framework in Frameworks */,
+				1A5ADE2BAC8EF01B99C05C6EB082CAE0 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		001A8FF6E4B2E976C9418F0A4A8D2EE0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				47FC87B6C8D50C4422A4EA08984BCD34 /* LoginServiceKit.modulemap */,
-				27AEFF9479790FC6D438657A0FBC096A /* LoginServiceKit.xcconfig */,
-				651BC8FF4EA314C9FEAA887FF32DA305 /* LoginServiceKit-dummy.m */,
-				D2FF33A58D858A2EE0E63773B63AB1B6 /* LoginServiceKit-Info.plist */,
-				ED5CB45429E4BDD2596F99DFC2F170B5 /* LoginServiceKit-prefix.pch */,
-				B83EA491A09E6E372E03E64A6600C81D /* LoginServiceKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/LoginServiceKit";
-			sourceTree = "<group>";
-		};
 		060EDD2025800C484D250CEB66824C2A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				841E138DC0458047C7F5049C0AA78330 /* HotKey */,
-				D26A62CC326713FA0FF7EE3BA91D50BE /* LoginServiceKit */,
+				B7040DFF076DC8F1B8C1A2B5D20C0857 /* HotKey */,
+				F633AEFB54989BD369C391B4D8C4C5F6 /* LoginServiceKit */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		841E138DC0458047C7F5049C0AA78330 /* HotKey */ = {
+		223A6E82614509C4616324325ADACE98 /* OS X */ = {
 			isa = PBXGroup;
 			children = (
-				9F99C39299BFE26C4D33B84EA657E6C1 /* HotKey.swift */,
-				FC6E051154852EA2C64270BB244A088E /* HotKeysController.swift */,
-				4A35D76945B595F8DFFBEFF929318FA8 /* Key.swift */,
-				E39346B2A4B03466EAE27448D8E6A18C /* KeyCombo.swift */,
-				B37A24BB51A4E2C4D586D2A0C0D4DDE3 /* NSEventModifierFlags+HotKey.swift */,
-				944452F586AEE38016F918B8287B59FA /* Support Files */,
-			);
-			name = HotKey;
-			path = HotKey;
-			sourceTree = "<group>";
-		};
-		867952DE18004326E1A758FDBA0A19DC /* OS X */ = {
-			isa = PBXGroup;
-			children = (
-				E0A08161AAA89131150FB117FA3FFD44 /* AppKit.framework */,
-				FFBC9A90999F22CE48B198862DFC5B5D /* Carbon.framework */,
-				123D6DC4B5EFB570985CEFACFC1B93CE /* Cocoa.framework */,
+				1FF537C4B2333ED4B67B788F34AA128F /* AppKit.framework */,
+				E81F6492756EB97096F56436A1CE1548 /* Carbon.framework */,
+				EC06087B2939703A4EFECAD790F44320 /* Cocoa.framework */,
 			);
 			name = "OS X";
+			sourceTree = "<group>";
+		};
+		803AE77EF859D9FDEFDED0B65FA71C19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F36B2E7BB4C3E92E4DF7443FAFF3AE3F /* HotKey */,
+				820475DEE643F008B5FBA1874C6447A9 /* LoginServiceKit */,
+				E6885DB09887A8ABE5BB0999F2D18265 /* Pods-HideAndSeek */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		8E9BADD5CDA95201CF4169C14F818D2A /* Pods-HideAndSeek */ = {
@@ -174,26 +158,41 @@
 			path = "Target Support Files/Pods-HideAndSeek";
 			sourceTree = "<group>";
 		};
-		944452F586AEE38016F918B8287B59FA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6FEDCEECE5EFB5FE74815EDFE9F14C6A /* HotKey.modulemap */,
-				5B202E1921F738792FF5EF1DEF9E73C8 /* HotKey.xcconfig */,
-				D738ED01FA483A726F803FAA55D5559B /* HotKey-dummy.m */,
-				5231D60EF5E84BFAC184F73EA4E66D1F /* HotKey-Info.plist */,
-				09DD75B261F3348280868A94DDBA1EA2 /* HotKey-prefix.pch */,
-				A7ACD27D698BEE5EB1146CAF76CE3D24 /* HotKey-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/HotKey";
-			sourceTree = "<group>";
-		};
 		A3CDB250FFEFB42CA2C68F1FBD92997D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				867952DE18004326E1A758FDBA0A19DC /* OS X */,
+				223A6E82614509C4616324325ADACE98 /* OS X */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A65DFEA97739EF3DEA23DF6961746F28 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6149C6FA7EBA7D1A1A76D44923D623A /* LoginServiceKit.modulemap */,
+				410F77C619E9B14BEAEA5E601C11B1BF /* LoginServiceKit-dummy.m */,
+				DD1F1E041A106005436F0AEF545A6A6C /* LoginServiceKit-Info.plist */,
+				8710124225CD6D38D9FAFF94527DD709 /* LoginServiceKit-prefix.pch */,
+				334500E3FF8762684E55E0C4BED00225 /* LoginServiceKit-umbrella.h */,
+				B79969EEA67AD8637C8F363EFEBCA77E /* LoginServiceKit.debug.xcconfig */,
+				579D21246B7EFB97EB851CA576D1B487 /* LoginServiceKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LoginServiceKit";
+			sourceTree = "<group>";
+		};
+		B7040DFF076DC8F1B8C1A2B5D20C0857 /* HotKey */ = {
+			isa = PBXGroup;
+			children = (
+				00D755661D7F938DBE8C5EC95571825F /* HotKey.swift */,
+				D3B4BAB00038FCA3AB7977621612FC65 /* HotKeysController.swift */,
+				B276B48DDAA7BED6F2DE845F1B90C118 /* Key.swift */,
+				9D18AFFC152FA84B2388D15C60AEBC62 /* KeyCombo.swift */,
+				93C8E5A7293531677A307BBA96EEFFE6 /* NSEventModifierFlags+HotKey.swift */,
+				F55E64218F3FDD77D49D10BC51C02438 /* Support Files */,
+			);
+			name = HotKey;
+			path = HotKey;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -202,19 +201,9 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				A3CDB250FFEFB42CA2C68F1FBD92997D /* Frameworks */,
 				060EDD2025800C484D250CEB66824C2A /* Pods */,
-				F6842E75CAE56B54394CF99ACF8A2E00 /* Products */,
+				803AE77EF859D9FDEFDED0B65FA71C19 /* Products */,
 				F3C822D96FF14D8D143231E5CB9A0241 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D26A62CC326713FA0FF7EE3BA91D50BE /* LoginServiceKit */ = {
-			isa = PBXGroup;
-			children = (
-				472FBAA37CC585A3968BA294306C26EE /* LoginServiceKit.swift */,
-				001A8FF6E4B2E976C9418F0A4A8D2EE0 /* Support Files */,
-			);
-			name = LoginServiceKit;
-			path = LoginServiceKit;
 			sourceTree = "<group>";
 		};
 		F3C822D96FF14D8D143231E5CB9A0241 /* Targets Support Files */ = {
@@ -225,40 +214,55 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F6842E75CAE56B54394CF99ACF8A2E00 /* Products */ = {
+		F55E64218F3FDD77D49D10BC51C02438 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F36B2E7BB4C3E92E4DF7443FAFF3AE3F /* HotKey.framework */,
-				820475DEE643F008B5FBA1874C6447A9 /* LoginServiceKit.framework */,
-				E6885DB09887A8ABE5BB0999F2D18265 /* Pods_HideAndSeek.framework */,
+				6386A55C9A731EE46FFA3C3440E352BE /* HotKey.modulemap */,
+				32F4920C1E952B0CA14320D4CFE6F4C0 /* HotKey-dummy.m */,
+				28E2AFE33B76ECC750034BBFABCF2C0A /* HotKey-Info.plist */,
+				09EDF7C4AF3B10BB3A03C159569A445D /* HotKey-prefix.pch */,
+				418FA239575176AB682888A108B2CADD /* HotKey-umbrella.h */,
+				5F0B42C56436BBAD652BBA0306E04FE5 /* HotKey.debug.xcconfig */,
+				DCA740B2B50A1598107D88F0F7D14D59 /* HotKey.release.xcconfig */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/HotKey";
+			sourceTree = "<group>";
+		};
+		F633AEFB54989BD369C391B4D8C4C5F6 /* LoginServiceKit */ = {
+			isa = PBXGroup;
+			children = (
+				BBD258B530378291117B5ADD6E40CC13 /* LoginServiceKit.swift */,
+				A65DFEA97739EF3DEA23DF6961746F28 /* Support Files */,
+			);
+			name = LoginServiceKit;
+			path = LoginServiceKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3E3880A32FD7861113892452CE3A17AD /* Headers */ = {
+		966A8B68E7E007ADFD36CF70A6DA42DA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C9EDC3524F5EEC3F58BF7FAD7D46024 /* Pods-HideAndSeek-umbrella.h in Headers */,
+				85FCEAFC82BFC654BC023F98F766F25D /* LoginServiceKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97C249D8B94D576C224CA6105B518D02 /* Headers */ = {
+		99CC733395FB9EE49009D57C3DFF62DA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD9EA8AA8D3959577C324CE51105CC90 /* LoginServiceKit-umbrella.h in Headers */,
+				51CBC8515C46435CFDCC05DEFACB951B /* Pods-HideAndSeek-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F86CE60BF1555823DE98BC5D4354F297 /* Headers */ = {
+		EEBA7C0D40FF9809DF43CD5A287068E1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6329F2E68803BCDBFC3C3A48DF5109E3 /* HotKey-umbrella.h in Headers */,
+				0D9F5195693571CB2E0A7CC283E389F9 /* HotKey-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,12 +271,12 @@
 /* Begin PBXNativeTarget section */
 		4363B3DEE0E244A6E95B497FB82E7385 /* LoginServiceKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B6310DB0AF3F4FB8C97CF81017433C2D /* Build configuration list for PBXNativeTarget "LoginServiceKit" */;
+			buildConfigurationList = 2BBE40909279AF3D30FB5B66E6C8B6CD /* Build configuration list for PBXNativeTarget "LoginServiceKit" */;
 			buildPhases = (
-				97C249D8B94D576C224CA6105B518D02 /* Headers */,
-				EC1E63028C94A657E523CF7E86650E8C /* Sources */,
-				3CB65A48D8F6087DBE6EE068559897D9 /* Frameworks */,
-				D67CF8E41FCE21EB2DB9C6B008323288 /* Resources */,
+				966A8B68E7E007ADFD36CF70A6DA42DA /* Headers */,
+				0706593FE99CE75A019A098CEA357F10 /* Sources */,
+				5A1DE6655A176CFEF2B19BD120A3FDA7 /* Frameworks */,
+				9F7499F7442D3E902CEEF28950DE2004 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -280,37 +284,37 @@
 			);
 			name = LoginServiceKit;
 			productName = LoginServiceKit;
-			productReference = 820475DEE643F008B5FBA1874C6447A9 /* LoginServiceKit.framework */;
+			productReference = 820475DEE643F008B5FBA1874C6447A9 /* LoginServiceKit */;
 			productType = "com.apple.product-type.framework";
 		};
 		9184BA9314606E952A6287D82E95652D /* Pods-HideAndSeek */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 871DBB0F68A72E4F6BA6FF269F558BE3 /* Build configuration list for PBXNativeTarget "Pods-HideAndSeek" */;
+			buildConfigurationList = BD7075A4683B5051E51F6225F61DEAB3 /* Build configuration list for PBXNativeTarget "Pods-HideAndSeek" */;
 			buildPhases = (
-				3E3880A32FD7861113892452CE3A17AD /* Headers */,
-				D8BB87E6B64105B947B81EE788864822 /* Sources */,
-				D4229E04D5CC1F0795F90CC06D6646EC /* Frameworks */,
-				0B6197D6BCA0246DBD437B6F03D29693 /* Resources */,
+				99CC733395FB9EE49009D57C3DFF62DA /* Headers */,
+				C86661F682C4240CD6E70CBC5BD924C5 /* Sources */,
+				B95CA6A5583E398AE4698F4CADF813EB /* Frameworks */,
+				FD452328C0967213DA413CE1F476EDA1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1D0EB37BF174DB3D4BF0448FD76B6118 /* PBXTargetDependency */,
-				A0B31630BCA9819630EC921286707D11 /* PBXTargetDependency */,
+				CBF0A83C90E439078DF52D8B94975881 /* PBXTargetDependency */,
+				E5D14C6C4D722AB9C049EDC08FA8836B /* PBXTargetDependency */,
 			);
 			name = "Pods-HideAndSeek";
-			productName = "Pods-HideAndSeek";
-			productReference = E6885DB09887A8ABE5BB0999F2D18265 /* Pods_HideAndSeek.framework */;
+			productName = Pods_HideAndSeek;
+			productReference = E6885DB09887A8ABE5BB0999F2D18265 /* Pods-HideAndSeek */;
 			productType = "com.apple.product-type.framework";
 		};
 		DB4D977E4336D9F2E9E510A33CD1DB6D /* HotKey */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7CF4E656A9E7278BE7AD5E48841412E /* Build configuration list for PBXNativeTarget "HotKey" */;
+			buildConfigurationList = A27CE4C9E05A6A1A6BEEB46B4BF8C218 /* Build configuration list for PBXNativeTarget "HotKey" */;
 			buildPhases = (
-				F86CE60BF1555823DE98BC5D4354F297 /* Headers */,
-				7CBB17719916DF3020AE21CEEA3DD91C /* Sources */,
-				EC969627A44DD839E017AD83678B6FF2 /* Frameworks */,
-				B29C2900C4DEA03C97EAAA1E92F0C9FE /* Resources */,
+				EEBA7C0D40FF9809DF43CD5A287068E1 /* Headers */,
+				650BEA7CBC13282DF112B4CDD648682A /* Sources */,
+				E69EC1972ACFEE0F1798705423C0CB46 /* Frameworks */,
+				C897538004C0E72456D204F5498A83BA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -318,7 +322,7 @@
 			);
 			name = HotKey;
 			productName = HotKey;
-			productReference = F36B2E7BB4C3E92E4DF7443FAFF3AE3F /* HotKey.framework */;
+			productReference = F36B2E7BB4C3E92E4DF7443FAFF3AE3F /* HotKey */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -327,19 +331,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F6842E75CAE56B54394CF99ACF8A2E00 /* Products */;
+			productRefGroup = 803AE77EF859D9FDEFDED0B65FA71C19 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -351,21 +355,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0B6197D6BCA0246DBD437B6F03D29693 /* Resources */ = {
+		9F7499F7442D3E902CEEF28950DE2004 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B29C2900C4DEA03C97EAAA1E92F0C9FE /* Resources */ = {
+		C897538004C0E72456D204F5498A83BA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D67CF8E41FCE21EB2DB9C6B008323288 /* Resources */ = {
+		FD452328C0967213DA413CE1F476EDA1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,58 +379,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7CBB17719916DF3020AE21CEEA3DD91C /* Sources */ = {
+		0706593FE99CE75A019A098CEA357F10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3543A70DF8931D1D0C5FA57A6B0FB4B /* HotKey-dummy.m in Sources */,
-				9C995A1C6CEE3603CBD3C829D8ECEF8C /* HotKey.swift in Sources */,
-				753C094F16E687CC3C027B49F9A6DE3C /* HotKeysController.swift in Sources */,
-				29784D27868C289298CBBC341C089C58 /* Key.swift in Sources */,
-				B690623CBB2C64D853AC854EA9B3DD60 /* KeyCombo.swift in Sources */,
-				B1E75E67962EF3891467FAA026346869 /* NSEventModifierFlags+HotKey.swift in Sources */,
+				47C169342C17B6FBD01BF2C515E15FCE /* LoginServiceKit.swift in Sources */,
+				FF29B1C3A0C80D7F06F99AFCC237C4CB /* LoginServiceKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8BB87E6B64105B947B81EE788864822 /* Sources */ = {
+		650BEA7CBC13282DF112B4CDD648682A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E0F0B51F8360E3ADEB4619A8D2D0CDA /* Pods-HideAndSeek-dummy.m in Sources */,
+				C581C2DEF03D85273B408768F9E9EC1A /* HotKey.swift in Sources */,
+				ACBE5807602DBC956EE3F7F2B3086139 /* HotKey-dummy.m in Sources */,
+				227A2FB36A93D748AC2CFDB2C3CE6E77 /* HotKeysController.swift in Sources */,
+				8044819A3D48FEDB6B28B7528580815B /* Key.swift in Sources */,
+				C2764B467BCAEE0D6E715EA8EF42DFB0 /* KeyCombo.swift in Sources */,
+				42A6638725788C7B39E6937B298187DF /* NSEventModifierFlags+HotKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC1E63028C94A657E523CF7E86650E8C /* Sources */ = {
+		C86661F682C4240CD6E70CBC5BD924C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39901ED0E424B4AD66D94DBF5ED432A3 /* LoginServiceKit-dummy.m in Sources */,
-				5C232150CA77EF06DC418A48F78C822F /* LoginServiceKit.swift in Sources */,
+				AF24C8C94268BDC76CD68BC6403DC176 /* Pods-HideAndSeek-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1D0EB37BF174DB3D4BF0448FD76B6118 /* PBXTargetDependency */ = {
+		CBF0A83C90E439078DF52D8B94975881 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HotKey;
 			target = DB4D977E4336D9F2E9E510A33CD1DB6D /* HotKey */;
-			targetProxy = CE27D2920F32A9499E5EDA7461692A8A /* PBXContainerItemProxy */;
+			targetProxy = AFF71418B04EEE5D7471308C16041D1F /* PBXContainerItemProxy */;
 		};
-		A0B31630BCA9819630EC921286707D11 /* PBXTargetDependency */ = {
+		E5D14C6C4D722AB9C049EDC08FA8836B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LoginServiceKit;
 			target = 4363B3DEE0E244A6E95B497FB82E7385 /* LoginServiceKit */;
-			targetProxy = 8E64352BF0735F9BBF136ECAAFEBF71C /* PBXContainerItemProxy */;
+			targetProxy = 6D0D5AC2AC0840499EE5AABCA6B58434 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0253CCDEE11BB2E876CF8C6EBDC6E1A8 /* Release */ = {
+		0AE172D8F2A4843BFACAD21A0ED26541 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -449,6 +454,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -483,14 +489,12 @@
 			};
 			name = Release;
 		};
-		29F6580041317175CBEEEE33C0310E03 /* Release */ = {
+		47E7227B73A0FF204E970FB5D7783A1E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F8647EF27B687C09DF8EA2DEDCDB6DB /* Pods-HideAndSeek.release.xcconfig */;
+			baseConfigurationReference = B79969EEA67AD8637C8F363EFEBCA77E /* LoginServiceKit.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -500,46 +504,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-HideAndSeek/Pods-HideAndSeek-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MODULEMAP_FILE = "Target Support Files/Pods-HideAndSeek/Pods-HideAndSeek.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5D90559411EA2D0B33C8DB1257E51D9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27AEFF9479790FC6D438657A0FBC096A /* LoginServiceKit.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
 				GCC_PREFIX_HEADER = "Target Support Files/LoginServiceKit/LoginServiceKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/LoginServiceKit/LoginServiceKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -561,50 +525,11 @@
 			};
 			name = Debug;
 		};
-		68A59B7DE2672C9FE77A6706F8DECFFA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5333727654E602B5AB468791EED5C5A5 /* Pods-HideAndSeek.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-HideAndSeek/Pods-HideAndSeek-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MODULEMAP_FILE = "Target Support Files/Pods-HideAndSeek/Pods-HideAndSeek.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6DC6BBF7D2A721A4E91A75A28EEB8E83 /* Debug */ = {
+		808E544862838153672EA12FCC127D9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -627,6 +552,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -665,12 +591,11 @@
 			};
 			name = Debug;
 		};
-		DEAB4D407F8BFBAF687301F20F286FCF /* Release */ = {
+		8AC77549E78482B4507208566F610664 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B202E1921F738792FF5EF1DEF9E73C8 /* HotKey.xcconfig */;
+			baseConfigurationReference = DCA740B2B50A1598107D88F0F7D14D59 /* HotKey.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -680,7 +605,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
 				GCC_PREFIX_HEADER = "Target Support Files/HotKey/HotKey-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/HotKey/HotKey-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -702,13 +626,13 @@
 			};
 			name = Release;
 		};
-		E11D1C058B0BEFD50B5C1DF302025108 /* Release */ = {
+		BB2247603E88017B5FF6B7F2FAFC2D24 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27AEFF9479790FC6D438657A0FBC096A /* LoginServiceKit.xcconfig */;
+			baseConfigurationReference = 5333727654E602B5AB468791EED5C5A5 /* Pods-HideAndSeek.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -718,7 +642,43 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-HideAndSeek/Pods-HideAndSeek-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Pods-HideAndSeek/Pods-HideAndSeek.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D4745282B94448555E054514D8FB7FD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 579D21246B7EFB97EB851CA576D1B487 /* LoginServiceKit.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/LoginServiceKit/LoginServiceKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/LoginServiceKit/LoginServiceKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -740,12 +700,13 @@
 			};
 			name = Release;
 		};
-		FDA86F1E6CBC950006956431C346436F /* Debug */ = {
+		D8DDB1F63E51873FEEA7A7EA8B7B8CE3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B202E1921F738792FF5EF1DEF9E73C8 /* HotKey.xcconfig */;
+			baseConfigurationReference = 6F8647EF27B687C09DF8EA2DEDCDB6DB /* Pods-HideAndSeek.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -755,7 +716,42 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-HideAndSeek/Pods-HideAndSeek-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Pods-HideAndSeek/Pods-HideAndSeek.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F2D570AEC320161C983FD950C6552AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F0B42C56436BBAD652BBA0306E04FE5 /* HotKey.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/HotKey/HotKey-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/HotKey/HotKey-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -780,38 +776,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2BBE40909279AF3D30FB5B66E6C8B6CD /* Build configuration list for PBXNativeTarget "LoginServiceKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E7227B73A0FF204E970FB5D7783A1E /* Debug */,
+				D4745282B94448555E054514D8FB7FD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6DC6BBF7D2A721A4E91A75A28EEB8E83 /* Debug */,
-				0253CCDEE11BB2E876CF8C6EBDC6E1A8 /* Release */,
+				808E544862838153672EA12FCC127D9A /* Debug */,
+				0AE172D8F2A4843BFACAD21A0ED26541 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		871DBB0F68A72E4F6BA6FF269F558BE3 /* Build configuration list for PBXNativeTarget "Pods-HideAndSeek" */ = {
+		A27CE4C9E05A6A1A6BEEB46B4BF8C218 /* Build configuration list for PBXNativeTarget "HotKey" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				68A59B7DE2672C9FE77A6706F8DECFFA /* Debug */,
-				29F6580041317175CBEEEE33C0310E03 /* Release */,
+				F2D570AEC320161C983FD950C6552AA0 /* Debug */,
+				8AC77549E78482B4507208566F610664 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A7CF4E656A9E7278BE7AD5E48841412E /* Build configuration list for PBXNativeTarget "HotKey" */ = {
+		BD7075A4683B5051E51F6225F61DEAB3 /* Build configuration list for PBXNativeTarget "Pods-HideAndSeek" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FDA86F1E6CBC950006956431C346436F /* Debug */,
-				DEAB4D407F8BFBAF687301F20F286FCF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B6310DB0AF3F4FB8C97CF81017433C2D /* Build configuration list for PBXNativeTarget "LoginServiceKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5D90559411EA2D0B33C8DB1257E51D9A /* Debug */,
-				E11D1C058B0BEFD50B5C1DF302025108 /* Release */,
+				BB2247603E88017B5FF6B7F2FAFC2D24 /* Debug */,
+				D8DDB1F63E51873FEEA7A7EA8B7B8CE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
